@@ -1,0 +1,536 @@
+/*MEDIA QUERY FOR CONTACT FORM
+DEVELOPPED BY TPMP.COM.CO
+*/
+/*MEDIA QUERY FOR CONTACT FORM START*/
+/*SCREEN NUMBER 1 START*/
+@media screen and (min-width:300px) and (max-width:574px) {
+    /*CONTACT FORM PROP START */
+	.contactcontainer {
+		display: flex !important;
+		flex-direction: row !important;
+		flex-wrap: wrap !important;
+		justify-content: space-between !important;
+		margin: 10px auto !important;
+		width: 250px !important;
+	}
+	.two-cols-row {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+		margin: 5px auto !important;
+		width: 250px !important;
+	}
+	.one-col-left {
+		float:left;
+		width: 250px !important;
+		padding: 0px !important;
+	}
+	.one-col-rig {
+		float: left;
+		width: 250px !important;
+		padding: 0px !important; 
+	}
+	.one-col-wide-row {
+		float: left;
+		width: 250px !important;
+		margin: 5px auto !important;
+	}
+	.single-col-row {
+		padding: 0px 0px !important;
+		width: 250px !important;
+		max-width: 250px !important;
+		margin: 5px auto !important;
+	}
+	/*ALL FIELDS Border settings */
+	#firname, #lasname, #woemail, #businessphone, #jobtitle, #companyname, #paisselect, #citydi, #comfild {
+		width: 250px !important;
+		margin: 10px auto;
+	}
+	.salecall, .newsletter {
+		margin: 14px auto;
+		float: left;
+		margin: 5px auto !important;
+	}
+	#single-col-row-text, .single-col-row-text {
+		text-align: center !important;
+		width: 250px !important;
+		max-width: 250px !important;
+		margin: 8px auto !important;
+	}
+	#comfild {
+		min-width: 250px !important;
+		width: 250px !important;
+		max-width: 250px !important;
+		padding: 0px 10px;
+		min-height: 90px !important;
+		height: 90px !important;
+		max-height: 90px !important;
+	}
+	input.wpcf7-form-control.wpcf7-submit {
+		display: block !important;
+		margin: 20px auto !important;
+		min-width: 250px !important;
+		width: 250px !important;
+		max-width: 250px !important;
+	}
+}
+/*SCREEN NUMBER 1 END*/
+/*SCREEN NUMBER 2 START*/
+@media screen and (min-width:575px) and (max-width:767px) {
+	/*CONTACT FORM PROP START */
+	.contactcontainer {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin: 10px auto;
+		min-width: 460px !important;
+		max-width: 460px !important;
+		width: 460px !important;
+	}
+	.two-cols-row {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+		margin: 14px auto;
+		width: inherit;
+	}
+	.one-col-left {
+		float:left;
+		width: 230px !important;
+		min-width: 230px !important;
+		max-width: 230px !important;
+		padding: 0px 5px 0px 0px !important;
+	}
+	.one-col-rig {
+		float: right;
+		width: 230px !important;
+		min-width: 230px !important;
+		max-width: 230px !important;
+		padding: 0px 0px 0px 5px !important;
+	}
+	.one-col-wide-row {
+		float: left;
+		width: inherit;
+	}
+	.single-col-row {
+		padding: 10px 0px !important;
+		min-width: 460px !important;
+		max-width: 460px !important;
+		width: 460px !important;
+	}
+	/*ALL FIELDS Border settings */
+	#firname, #lasname, #woemail, #businessphone, #jobtitle, #companyname, #paisselect, #citydi, #comfild {
+
+	}
+	.salecall, .newsletter {
+		margin: 14px auto;
+		float: left;
+	}
+	#single-col-row-text {
+		text-align: center !important;
+		min-width: 460px;
+		max-width: 460px;
+		width: 460px;
+	}
+	#comfild {
+		min-width: 460px !important;
+		width: 460px !important;
+		max-width: 460px !important;
+		padding: 14px;
+		min-height: 90px !important;
+		height: 90px !important;
+		max-height: 90px !important;
+	}
+	input.wpcf7-form-control.wpcf7-submit {
+		display: block;
+		margin: 20px auto;
+		min-width: 400px;
+		width: 400px;
+		max-width: inherit;
+	}
+}
+/*SCREEN NUMBER 2 END*/
+/*SCREEN NUMBER 3 START*/
+@media screen and (min-width:768px) and (max-width:959px) {
+	/*START Add support for elementor background container column*/
+	.elementor-25 .elementor-element.elementor-element-39782df {
+		width: 100% !important;
+	}
+	/*END Add support for elementor background container column*/
+	/*centers the contact form box inside elementor white column*/
+	.elementor-25 .elementor-element.elementor-element-3bf02b85 > .elementor-widget-container {
+		margin: 0px !important;
+		padding: 0px !important;
+		background-color: var( --e-global-color-astglobalcolor5 );
+	}
+	/*CONTACT FORM PROP START */
+	.contactcontainer {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin: 10px auto;
+		width: 600px !important;
+	}
+	.two-cols-row {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+		margin: 14px auto;
+		width: inherit;
+	}
+	.one-col-left {
+		float:left;
+		width: 50%;
+		padding: 0px 10px;
+	}
+	.one-col-rig {
+		float: right;
+		width: 50%;
+		padding: 0px 10px;
+	}
+	.one-col-wide-row {
+		float: left;
+		width: inherit;
+	}
+	.single-col-row {
+		padding: 0px 10px;
+	}
+	/*ALL FIELDS Border settings */
+	#firname, #lasname, #woemail, #businessphone, #jobtitle, #companyname, #paisselect, #citydi, #comfild {
+
+	}
+	.salecall, .newsletter {
+		margin: 14px auto;
+		float: left;
+	}
+	#single-col-row-text {
+		text-align: center !important;
+	}
+	#comfild {
+		min-width: 100% !important;
+		width: inherit !important;
+		max-width: 100% !important;
+		padding: 0px 10px;
+		min-height: 90px !important;
+		height: 90px !important;
+		max-height: 90px !important;
+	}
+	input.wpcf7-form-control.wpcf7-submit {
+		display: block;
+		margin: 20px auto;
+		min-width: 330px;
+		width: 90%;
+		max-width: inherit;
+	}
+} 
+/*SCREEN NUMBER 3 END*/
+/*SCREEN NUMBER 4 START*/
+@media screen and (min-width:960px) and (max-width:1023px) {
+	/*START Add support for elementor background container column*/
+	.elementor-25 .elementor-element.elementor-element-39782df {
+		width: 100% !important;
+	}
+	/*END Add support for elementor background container column*/
+	/*centers the contact form box inside elementor white column*/
+	.elementor-25 .elementor-element.elementor-element-3bf02b85 > .elementor-widget-container {
+		margin: 0px !important;
+		padding: 0px !important;
+		background-color: var( --e-global-color-astglobalcolor5 );
+	}
+	/*CONTACT FORM PROP START */
+	.contactcontainer {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin: 10px auto;
+		width: 800px !important;
+	}
+	.two-cols-row {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+		margin: 14px auto;
+		width: 800px !important;
+	}
+	.one-col-left {
+		float:left;
+		width: 400px !important;
+		padding: 0px 10px 0px 0px;
+	}
+	.one-col-rig {
+		float: right;
+		width: 400px !important;
+		padding: 0px 0px 0px 10px;
+	}
+	.one-col-wide-row {
+		float: left;
+		width: 800px !important;
+	}
+	.single-col-row {
+		padding: 0px !important;
+	}
+	/*ALL FIELDS Border settings */
+	#firname, #lasname, #woemail, #businessphone, #jobtitle, #companyname, #paisselect, #citydi, #comfild {
+
+	}
+	.salecall, .newsletter {
+		margin: 14px auto;
+		float: left;
+	}
+	#single-col-row-text {
+		text-align: center !important;
+	}
+	#comfild {
+		min-width: 800px !important;
+		width: 800px !important;
+		max-width: 800px !important;
+		padding: 10px !important;
+		min-height: 100px !important;
+		height: 100px !important;
+		max-height: 100px !important;
+	}
+	input.wpcf7-form-control.wpcf7-submit {
+	display: block !important;
+	margin: 20px auto !important;
+	min-width: 560px !important;
+	width: 560px !important;
+	max-width: 560px !important;
+	}
+}
+/*SCREEN NUMBER 4 END*/
+/*SCREEN NUMBER 5 START*/
+@media screen and (min-width:1024px) and (max-width:1367px) {
+	/*START Add support for elementor background container column*/
+	.elementor-25 .elementor-element.elementor-element-39782df {
+		width: 100% !important;
+	}
+	/*END Add support for elementor background container column*/
+	/*centers the contact form box inside elementor white column*/
+	.elementor-25 .elementor-element.elementor-element-3bf02b85 > .elementor-widget-container {
+		margin: 0px !important;
+		padding: 0px !important;
+		background-color: var( --e-global-color-astglobalcolor5 );
+	}
+	/*CONTACT FORM PROP START */
+	.contactcontainer {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin: 10px auto;
+		width: 800px !important;
+	}
+	.two-cols-row {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+		margin: 14px auto;
+		width: 800px !important;
+	}
+	.one-col-left {
+		float:left;
+		width: 400px !important;
+		padding: 0px 10px 0px 0px;
+	}
+	.one-col-rig {
+		float: right;
+		width: 400px !important;
+		padding: 0px 0px 0px 10px;
+	}
+	.one-col-wide-row {
+		float: left;
+		width: 800px !important;
+	}
+	.single-col-row {
+		padding: 0px !important;
+	}
+	/*ALL FIELDS Border settings */
+	#firname, #lasname, #woemail, #businessphone, #jobtitle, #companyname, #paisselect, #citydi, #comfild {
+
+	}
+	.salecall, .newsletter {
+		margin: 14px auto;
+		float: left;
+	}
+	#single-col-row-text {
+		text-align: center !important;
+	}
+	#comfild {
+		min-width: 800px !important;
+		width: 800px !important;
+		max-width: 800px !important;
+		padding: 10px !important;
+		min-height: 100px !important;
+		height: 100px !important;
+		max-height: 100px !important;
+	}
+	input.wpcf7-form-control.wpcf7-submit {
+		display: block !important;
+		margin: 20px auto !important;
+		min-width: 560px !important;
+		width: 560px !important;
+		max-width: 560px !important;
+	}
+}
+/*SCREEN NUMBER 5 END*/
+/*SCREEN NUMBER 6 START*/
+@media screen and (min-width:1368px) and (max-width:1920px) {
+		/*START Add support for elementor background container column*/
+		.elementor-25 .elementor-element.elementor-element-39782df {
+			width: 100% !important;
+		}
+		/*END Add support for elementor background container column*/
+		/*centers the contact form box inside elementor white column*/
+		.elementor-25 .elementor-element.elementor-element-3bf02b85 > .elementor-widget-container {
+			margin: 0px !important;
+			padding: 0px !important;
+			background-color: var( --e-global-color-astglobalcolor5 );
+		}
+		/*CONTACT FORM PROP START */
+		.contactcontainer {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			margin: 10px auto;
+			width: 700px !important;
+		}
+		.two-cols-row {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-evenly;
+			margin: 14px auto;
+			width: 700px !important;
+		}
+		.one-col-left {
+			float:left;
+			width: 350px !important;
+			padding: 0px 10px 0px 0px;
+		}
+		.one-col-rig {
+			float: right;
+			width: 350px !important;
+			padding: 0px 0px 0px 10px;
+		}
+		.one-col-wide-row {
+			float: left;
+			width: 700px !important;
+		}
+		.single-col-row {
+			padding: 0px !important;
+		}
+		/*ALL FIELDS Border settings */
+		#firname, #lasname, #woemail, #businessphone, #jobtitle, #companyname, #paisselect, #citydi, #comfild {
+	
+		}
+		.salecall, .newsletter {
+			margin: 14px auto;
+			float: left;
+		}
+		#single-col-row-text {
+			text-align: center !important;
+		}
+		#comfild {
+			min-width: 700px !important;
+			width: 700px !important;
+			max-width: 700px !important;
+			padding: 10px !important;
+			min-height: 100px !important;
+			height: 100px !important;
+			max-height: 100px !important;
+		}
+		input.wpcf7-form-control.wpcf7-submit {
+			display: block !important;
+			margin: 20px auto !important;
+			min-width: 560px !important;
+			width: 560px !important;
+			max-width: 560px !important;
+		}
+}
+/*SCREEN NUMBER 6 END*/
+/*SCREEN NUMBER 7 START*/
+@media screen and (min-width:1921px) and (max-width:4096px) {
+	/*START Add support for elementor background container column*/
+	.elementor-25 .elementor-element.elementor-element-39782df {
+		width: 100% !important;
+	}
+	/*END Add support for elementor background container column*/
+	/*centers the contact form box inside elementor white column*/
+	.elementor-25 .elementor-element.elementor-element-3bf02b85 > .elementor-widget-container {
+		margin: 0px !important;
+		padding: 0px !important;
+		background-color: var( --e-global-color-astglobalcolor5 );
+	}
+	/*CONTACT FORM PROP START */
+	.contactcontainer {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin: 10px auto;
+		width: 700px !important;
+	}
+	.two-cols-row {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+		margin: 14px auto;
+		width: 700px !important;
+	}
+	.one-col-left {
+		float:left;
+		width: 350px !important;
+		padding: 0px 10px 0px 0px;
+	}
+	.one-col-rig {
+		float: right;
+		width: 350px !important;
+		padding: 0px 0px 0px 10px;
+	}
+	.one-col-wide-row {
+		float: left;
+		width: 700px !important;
+	}
+	.single-col-row {
+		padding: 0px !important;
+	}
+	/*ALL FIELDS Border settings */
+	#firname, #lasname, #woemail, #businessphone, #jobtitle, #companyname, #paisselect, #citydi, #comfild {
+
+	}
+	.salecall, .newsletter {
+		margin: 14px auto;
+		float: left;
+	}
+	#single-col-row-text {
+		text-align: center !important;
+	}
+	#comfild {
+		min-width: 700px !important;
+		width: 700px !important;
+		max-width: 700px !important;
+		padding: 10px !important;
+		min-height: 100px !important;
+		height: 100px !important;
+		max-height: 100px !important;
+	}
+	input.wpcf7-form-control.wpcf7-submit {
+		display: block !important;
+		margin: 20px auto !important;
+		min-width: 560px !important;
+		width: 560px !important;
+		max-width: 560px !important;
+	}
+}
+/*SCREEN NUMBER 7 END*/
+/*MEDIA QUERY FOR CONTACT FORM END*/
