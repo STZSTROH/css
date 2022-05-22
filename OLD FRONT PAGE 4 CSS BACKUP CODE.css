@@ -1,0 +1,114 @@
+/* Front page 4 START*/
+
+.fp4container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 330px;
+    /*border: 1px solid black;*/
+}
+.fp4leftdivbox {
+    min-width: 330px;
+    max-width: 574px;
+    width: 100%;
+    margin: 0px !important;
+}
+.fp4leftdivimg  {
+    min-width: 330px;
+    max-width: 574px;
+    width: 100%;
+    margin: 8px 0px;
+}
+.fp4rightdivbox {
+    width: 330px;
+    margin: 30px 0px;
+}
+.fp4titlediv {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    font-size: 1.55em;
+    float: right;
+    margin: 30px 0px 10px 10px;
+}
+.fp4subtitlediv {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: #dcc7b7;
+    float: right;
+    margin: 0px 0px 25px 0px;
+}
+.fp4servicesconntainerbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 330px;
+    margin: 20px 10px 20px 10px;
+    /*border: 1px solid red;*/
+}
+.fp4servicebox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 335px;
+    height: 165px;
+    border-left: 5px solid #3D4543 !important;
+    border-bottom: 5px solid #3D4543 !important;
+    margin: 20px 0px 20px 0px;
+    /*border: 1px solid lime;*/
+}
+.fp4serviceimg {
+    width: 160px;
+    height: 160px;
+    /*border: 1px solid green;*/
+}
+.fp4servicetitle {
+    width: 100px;
+    height: 40px;
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 900;
+    margin-left: 18px;
+}
+.fp4servicebuttonbox {
+    width: 150px;
+    height: 32px;
+    float: right;
+    position: relative;
+    align-items: flex-end;
+    margin: 60px 0px 0px 10px;
+    /*border: 1px solid yellowgreen;*/
+}
+.fp4servicebutton {
+    padding: 5px 5px;
+    background-color: #DCC7B7;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    font-weight: 700;
+    cursor: pointer;
+    transition: ease-out;
+    transition-duration: 400ms;
+    float: right;
+}
+.fp4servicebutton:hover {
+    padding: 5px 5px;
+    background-color: #ffffff;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: #DCC7B7 !important;
+    border: 1px solid #DCC7B7;
+    text-decoration: none !important;
+    font-weight: 700;
+    cursor: pointer;
+    transition: ease-out;
+    transition-duration: 400ms;
+    float: right;
+}
+/*Front page 4 END*/

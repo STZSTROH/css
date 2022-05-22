@@ -1,0 +1,94 @@
+
+/* OLD Front page 3 START */
+.fp3container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 330px;
+    height: auto;
+}
+.fp3servicescontainerbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 330px;
+    margin: 20px 0px 10px 0px;
+}
+.fp3rightdiv {
+    min-width: 330px;
+    max-width: 574px;
+    width: 100%;
+    margin: 8px auto;
+}
+.fp3rightdivimg {
+    min-width: 330px !important;
+    max-width: 574px !important;
+    width: 100%;
+    margin: 0px;
+}
+.fp3servicesdiv {
+    display: flex;
+    flex-wrap: wrap;
+    width: 330px;
+    height: 105px;
+    border-left: 5px solid #3D4543;
+    border-bottom: 5px solid #3D4543;
+    margin: 24px 0px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: stretch;
+    border: 1px solid red;
+}
+.fp3serviceimg {
+    width: 100px;
+    height: 100px;
+    border: 1px solid green;
+}
+.fp3servicetitle {
+    width: 217px;
+    height: 52px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .89rem;
+    font-weight: 900;
+    margin-left: 18px;
+    border: 1px solid blueviolet;
+}
+.fp3servicebuttonbox {
+    width: 222px;
+    height: 35px;
+    float: right;
+    position: relative;
+    align-items: flex-end;
+    /*border: 1px solid yellowgreen;
+}
+.fp3servicebutton  {
+    padding: 5px 5px;
+    background-color: #DCC7B7;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    font-weight: 700;
+    cursor: pointer;
+    transition: ease-out;
+    transition-duration: 400ms;
+    float: right;
+}
+.fp3servicebutton:hover {
+    padding: 5px 5px;
+    background-color: #ffffff;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: #DCC7B7 !important;
+    border: 1px solid #DCC7B7;
+    text-decoration: none !important;
+    font-weight: 700;
+    cursor: pointer;
+    transition: ease-out;
+    transition-duration: 400ms;
+    float: right;
+}
+/* OLD Front page 3 END*/

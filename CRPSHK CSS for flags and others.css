@@ -1,0 +1,1519 @@
+/*Lorena Gomez Full CSS START */
+/*
+Style order
+1. 350  to 574px max res
+2. 575  to 767px max res
+3. 768  to 959px max res
+4. 960  to 1365px max res
+5. 1366 to 1920px max res
+6. 1921 to 4096x max res
+*/
+/*1. Media query for 300px to 574px screen*/
+@media only screen and (min-width: 300px) and (max-width: 574px) {
+    /******* fp-2  START *******/
+    .MethodContainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .MethodTextBox {
+        width: 330px;
+        margin: auto;
+        justify-content: space-between;
+    }
+    .MethodTittle {
+        width: 330px;
+        justify-content: space-between;
+        margin: auto;
+        font-size: 35px;
+        color: #FFFFFF;
+        text-transform: capitalize;
+        text-align: left;
+        font-family: 'monserrat', sans-serif;
+        font-weight: 900;
+        margin: 30px auto 4px auto;
+    }
+    .MethoodPagaph {
+        width: 330px;
+        text-align: left;
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.1rem;
+        line-height: 20px;
+        font-weight: 300;
+        margin: 40px auto 80px auto;
+    }
+    .MethoodButtonBox {
+        width: 200px;
+        margin: 10px auto 80px auto;
+        justify-content: space-between;
+        padding: 25px;
+        text-align: center;
+        background-color: #3a6cb4;
+        color: #fff;
+        text-shadow: none;
+    }
+    .MethoodButton {
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        color: #fff;
+        font-size: 17px;
+    }
+    .MethodImgBox {
+        justify-content: space-between;
+        margin: auto;
+    }
+    .MethodImg {
+        width: 330px;
+        height: auto;
+        margin: 10px auto 50px auto;
+    }
+    /******* fp-2  END   *******/
+    /******* fp-7 CONTACT START *******/
+    .divNaranja {
+        border-bottom: 4px solid #d8d8d821;
+        border-top: 4px solid #d8d8d821;
+        border-left: 1px solid #d8d8d821;
+        border-right: 1px solid #d8d8d821;
+        width: 320px;
+        height: 760px;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 19px;
+        background-color: #ffffff38;
+        display: block;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .DivMagenta {
+        justify-content: space-between;
+        margin: auto;
+        font-size: 20px;
+        color: #FFFFFF;
+        text-transform: lowercase;
+        text-align: center;
+        font-family: 'monserrat', sans-serif;
+        font-weight: 400;
+    }
+    #wpcf7-f52-p11-o2{
+        width: 300px;
+        height: 740px;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .wpcf7-select {
+        height: 40px;
+        border: 2px solid #fcfcfc !important;
+        border-radius: 5px;
+        text-align: left;
+        margin-left: 0px;
+        padding-left: 10px;
+        padding-right: 5px;
+        font-size: 14px;
+        color: #fff !important;
+        background-color: #b1906f !important;
+    }
+    #tuNombreCompleto, #TuCorreoEle, #MontoRecuperar, #CuentaNosTuCaso {
+        background-color: #b1906f !important;
+        border: 2px solid #fcfcfc !important;
+        color: #ffffff !important;
+        width: 300px;
+        height: 40px;
+    }
+    #tuPais {
+        background-color: #b1906f;
+        border: 2px solid #fcfcfc;
+        width: 300px;
+        height: 40px;
+        font-weight: 400;
+        color: #fff !important;
+    }
+    #IndicativoTel {
+        width: 300px;
+        background-color: #b1906f !important;
+    }
+    #TuMovil {
+        height: 40px;
+        border: 2px solid #fcfcfc !important;
+        border-radius: 5px;
+        background-color: #b1906f !important;
+        width: 300px;
+        position: relative;
+    }
+    #CuentaNosTuCaso {
+        min-width: 300px;
+        max-width: 300px;
+        min-height: 100px;
+        height: 100px;
+        max-height: 100px;
+        overflow: auto;
+        text-align: left;
+        color: #fff !important;
+        resize: none;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-between;
+    }
+    /*placeholder text white START*/
+	::-webkit-input-placeholder { /* WebKit browsers */
+        color: #fff !important;
+        opacity: 1;
+    }
+    :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+        color: #fff !important;
+        opacity: 1;
+    }
+    ::-moz-placeholder { /* Mozilla Firefox 19+ */
+        color: #fff !important;
+        opacity: 1;
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10+ */
+        color: #000 !important;
+        opacity: 1;
+    }
+    /*placeholder text white END*/
+    /******* fp-7 CONTACT END   *******/
+    /******* site-footer START  *******/
+    .divazul { /*Container of all logo and menu elements*/
+        /*border: 1px solid cyan;*/ 
+        display: flex; 
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: auto;
+        width: 330px;
+    }
+    .DivAmarillo {
+        padding-top: 25px;
+        width: 300px; 
+        float: left;
+    }
+    .DivRojo {
+        /*border: 1px dotted red;*/
+        float: left;
+        width: 340px;
+    }
+    #DivRojoImg {
+        width: 300px;
+    }
+    .DivNaranjaMenuContainer {
+        /*border: 1px solid orange;*/ 
+        width: 330px; 
+        float: left; 
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 35px;
+    }
+    .DivVerdeMenuItem {
+        /*border: 1px solid green;*/
+        height: 50px;
+        width: 91px;
+        text-align: center;
+    }
+    /*link properties*/
+    .LangFlagContainer {
+        justify-content: space-between;
+        width: 330px;
+        margin: auto;
+    }
+    .LangFlagBoxCont {
+        display: flex;
+        float: right;
+        margin: 20px 2px 10px 10px;
+        align-items: center;
+    }
+    #LangFlagTextLink, #LnagLink, #LnagLink1 {
+        padding-right: 5px;
+        font-size: 12px;
+        font-family: 'monserrat', sans-serif;
+        color: #000;
+        text-decoration: none;
+    }
+    /******* site-footer  END   *******/
+}
+/*2. Media query for 575px to 767px screen*/
+@media only screen and (min-width: 575px) and (max-width: 767px) {
+    /******* fp-2  START *******/
+    .MethodContainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .MethodTextBox {
+        width: 500px;
+        margin: auto;
+        justify-content: space-between;
+    }
+    .MethodTittle {
+        width: 500px;
+        justify-content: space-between;
+        margin: 30px auto 4px auto;
+        font-size: 50px;
+        color: #FFFFFF;
+        text-transform: capitalize;
+        text-align: left;
+        font-family: 'monserrat', sans-serif;
+        font-weight: 900;
+    }
+    .MethoodPagaph {
+        width: 500px;
+        text-align: left;
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 21px;
+        line-height: 27px;
+        font-weight: 300;
+        margin: 25px auto 90px auto;
+    }
+    .MethoodButtonBox {
+        width: 200px;
+        margin: 10px auto 80px auto;
+        justify-content: space-between;
+        padding: 25px;
+        text-align: center;
+        background-color: #3a6cb4;
+        color: #fff;
+        text-shadow: none;
+    }
+    .MethoodButton {
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        color: #fff;
+        font-size: 17px;
+    }
+    .MethodImgBox {
+        justify-content: space-between;
+        margin: auto;
+    }
+    .MethodImg {
+        width: 500px;
+        height: auto;
+        margin: 2px auto 50px auto;
+    }
+    /******* fp-2  END *******/
+    /******* fp-7 CONTACT FORM START *******/
+    .divNaranja {
+        border-bottom: 4px solid #d8d8d821;
+        border-top: 4px solid #d8d8d821;
+        border-left: 1px solid #d8d8d821;
+        border-right: 1px solid #d8d8d821;
+        width: 520px;
+        height: 760px;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 19px;
+        background-color: #ffffff38;
+        display: block;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .DivMagenta {
+        justify-content: space-between;
+        margin: auto;
+        font-size: 20px;
+        color: #FFFFFF;
+        text-transform: lowercase;
+        text-align: center;
+        font-family: 'monserrat', sans-serif;
+        font-weight: 400;
+    }
+    #wpcf7-f52-p11-o2{
+        width: 400px;
+        height: 740px;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .wpcf7-select {
+        height: 40px;
+        border: 2px solid #fcfcfc !important;
+        border-radius: 5px;
+        text-align: left;
+        margin-left: 0px;
+        padding-left: 10px;
+        padding-right: 5px;
+        font-size: 14px;
+        color: #fff !important;
+        background-color: #b1906f !important;
+    }
+    #tuNombreCompleto, #TuCorreoEle, #MontoRecuperar, #CuentaNosTuCaso {
+        background-color: #b1906f !important;
+        border: 2px solid #fcfcfc !important;
+        color: #ffffff !important;
+        width: 400px;
+        height: 40px;
+    }
+    #tuPais {
+        background-color: #b1906f;
+        border: 2px solid #fcfcfc;
+        width: 400px;
+        height: 40px;
+        font-weight: 400;
+        color: #fff !important;
+    }
+    #IndicativoTel {
+        width: 400px;
+        background-color: #b1906f !important;
+    }
+    #TuMovil {
+        height: 40px;
+        border: 2px solid #fcfcfc !important;
+        border-radius: 5px;
+        background-color: #b1906f !important;
+        width: 400px;
+        position: relative;
+    }
+    #CuentaNosTuCaso {
+        min-width: 400px;
+        max-width: 400px;
+        min-height: 150px;
+        height: 100px;
+        max-height: 100px;
+        overflow: auto;
+        text-align: left;
+        color: #fff !important;
+        resize: none;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-between;
+    }
+    /*placeholder text white START*/
+	::-webkit-input-placeholder { /* WebKit browsers */
+        color: #fff !important;
+        opacity: 1;
+    }
+    :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+        color: #fff !important;
+        opacity: 1;
+    }
+    ::-moz-placeholder { /* Mozilla Firefox 19+ */
+        color: #fff !important;
+        opacity: 1;
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10+ */
+        color: #000 !important;
+        opacity: 1;
+    }
+    /*placeholder text white END*/
+    /******* fp-6  END   *******/
+    /******* site-footer START  *******/
+    .divazul { /*Container of all logo and menu elements*/
+        /*border: 1px solid cyan;*/ 
+        display: flex; 
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: auto;
+        width: 550px;
+    }
+    .DivAmarillo {
+        padding-top: 25px;
+        width: 500px; 
+        float: left;
+    }
+    .DivRojo {
+        /*border: 1px dotted red;*/
+        float: left;
+        width: 340px;
+    }
+    #DivRojoImg {
+        width: 340px;
+    }
+    .DivNaranjaMenuContainer {
+        /*border: 1px solid orange;*/ 
+        width: 550px; 
+        float: left; 
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 35px;
+    }
+    .DivVerdeMenuItem {
+        /*border: 1px solid green;*/
+        height: 30px;
+        width: 91px;
+        text-align: center;
+    }
+    /*link properties*/
+    .LangFlagContainer {
+        justify-content: space-between;
+        width: 550px;
+        margin: auto;
+    }
+    .LangFlagBoxCont {
+        display: flex;
+        float: right;
+        margin: 20px 2px 10px 10px;
+        align-items: center;
+    }
+    #LangFlagTextLink, #LnagLink, #LnagLink1 {
+        padding-right: 5px;
+        font-size: 12px;
+        font-family: 'monserrat', sans-serif;
+        color: #000;
+        text-decoration: none;
+    }
+    /******* site-footer  END   *******/
+}
+/*3. Media query for 768px to 959px screen*/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    /* 768px to 959px web */
+    /******* fp-2  START *******/
+    .MethodContainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .MethodTextBox {
+        width: 550px;
+        margin: auto;
+        justify-content: space-between;
+    }
+    .MethodTittle {
+        width: 550px;
+        justify-content: space-between;
+        margin: 30px auto 4px auto;
+        font-size: 50px;
+        color: #FFFFFF;
+        text-transform: capitalize;
+        text-align: left;
+        font-family: 'monserrat', sans-serif;
+        font-weight: 900;
+    }
+    .MethoodPagaph {
+        width: 550px;
+        text-align: left;
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+        line-height: 35px;
+        font-weight: 400;
+        margin: 25px auto 50px auto;
+    }
+    .MethoodButtonBox {
+        width: 300px;
+        margin: 10px auto 80px auto;
+        justify-content: space-between;
+        padding: 25px;
+        text-align: center;
+        background-color: #3a6cb4;
+        color: #fff;
+        text-shadow: none;
+    }
+    .MethoodButton {
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        color: #fff;
+        font-size: 17px;
+    }
+    .MethodImgBox {
+        justify-content: space-between;
+        margin: auto;
+    }
+    .MethodImg {
+        width: 550px;
+        height: auto;
+        margin: 2px auto 50px auto;
+    }
+    /******* fp-2  END   *******/
+    /******* fp-4  START *******/
+    .RequirementsContainer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .PrivateKeyBox {
+        justify-content: space-between;
+        margin: auto;
+        display: flex;
+        align-content: center;
+        width: 550px;
+    }
+    .PrivKeyImgBox {
+        width: 250px;
+    }
+    .PrivateKeyImg {
+        width: 200px;
+        height: auto;
+    }
+    .PrivateKeyPagph {
+        width: 350px;
+        text-align: left;
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.1rem;
+        line-height: 20px;
+        font-weight: 300;
+        margin: 30px auto 60px auto;
+    }
+    .RequirementsContainer, .CostsContainer {
+        width: 550px;
+        justify-content: space-between;
+        text-align: left;
+        margin: 20px auto 40px auto;
+    }
+    .RequirementsTittle, .CostsTittle {
+        width: 550px;
+        justify-content: space-between;
+        font-size: 50px;
+        color: #FFFFFF;
+        text-transform: capitalize;
+        text-align: left;
+        font-family: 'monserrat', sans-serif;
+        font-weight: 900;
+        margin: 30px auto 4px auto;
+    }
+    .RequirementsPagph, .CostsPagph {
+        width: 550px;
+        text-align: left;
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 21px;
+        line-height: 27px;
+        font-weight: 300;
+        margin: 10px auto 90px auto;
+    }
+    .PaymentAcceptedContainer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: auto;
+        width: 550px;
+    }
+    .PaymentBox {
+        width: 140px;
+    }
+    .PaymentImg {
+        width: 140px;
+    }
+    /******* fp-4  END   *******/
+    /******* fp-7 CONTACT START *******/
+    .divNaranja {
+        border-bottom: 4px solid #d8d8d821;
+        border-top: 4px solid #d8d8d821;
+        border-left: 1px solid #d8d8d821;
+        border-right: 1px solid #d8d8d821;
+        width: 700px;
+        height: 760px;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 19px;
+        background-color: #ffffff38;
+        display: block;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .DivMagenta {
+        justify-content: space-between;
+        margin: auto;
+        font-size: 20px;
+        color: #FFFFFF;
+        text-transform: lowercase;
+        text-align: center;
+        font-family: 'monserrat', sans-serif;
+        font-weight: 400;
+    }
+    #wpcf7-f278-p7-o1 {
+        width: 500px;
+        height: 740px;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .wpcf7-select {
+        height: 40px;
+        border: 2px solid #fcfcfc !important;
+        border-radius: 5px;
+        text-align: left;
+        margin-left: 0px;
+        padding-left: 10px;
+        padding-right: 5px;
+        font-size: 14px;
+        color: #fff !important;
+        background-color: #b1906f !important;
+    }
+    #tuNombreCompleto, #TuCorreoEle, #MontoRecuperar, #CuentaNosTuCaso {
+        background-color: #b1906f !important;
+        border: 2px solid #fcfcfc !important;
+        color: #ffffff !important;
+        width: 500px;
+        height: 40px;
+    }
+    #tuPais {
+        background-color: #b1906f;
+        border: 2px solid #fcfcfc;
+        width: 500px;
+        height: 40px;
+        font-weight: 400;
+        color: #fff !important;
+    }
+    #IndicativoTel {
+        width: 500px;
+        background-color: #b1906f !important;
+    }
+    #TuMovil {
+        height: 40px;
+        border: 2px solid #fcfcfc !important;
+        border-radius: 5px;
+        background-color: #b1906f !important;
+        width: 500px;
+        position: relative;
+    }
+    #CuentaNosTuCaso {
+        min-width: 500px;
+        max-width: 500px;
+        min-height: 150px;
+        height: 100px;
+        max-height: 100px;
+        overflow: auto;
+        text-align: left;
+        color: #fff !important;
+        resize: none;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-between;
+    }
+    /*placeholder text white START*/
+	::-webkit-input-placeholder { /* WebKit browsers */
+        color: #fff !important;
+        opacity: 1;
+    }
+    :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+        color: #fff !important;
+        opacity: 1;
+    }
+    ::-moz-placeholder { /* Mozilla Firefox 19+ */
+        color: #fff !important;
+        opacity: 1;
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10+ */
+        color: #000 !important;
+        opacity: 1;
+    }
+    /*placeholder text white END*/
+    /******* fp-7 CONTACT END   *******/
+    /******* site-footer START  *******/
+    .divazul { /*Container of all logo and menu elements*/
+        /*border: 1px solid cyan;*/ 
+        display: flex; 
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: auto;
+        width: 700px;
+    }
+    .DivAmarillo {
+        padding-top: 25px;
+        width: 700px; 
+        float: left;
+    }
+    .DivRojo {
+        /*border: 1px dotted red;*/
+        float: left;
+        width: 360px;
+    }
+    #DivRojoImg {
+        width: 360px;
+    }
+    .DivNaranjaMenuContainer {
+        /*border: 1px solid orange;*/ 
+        width: 740px; 
+        float: left; 
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 35px;
+    }
+    .DivVerdeMenuItem {
+        /*border: 1px solid green;*/
+        height: 30px;
+        width: 110px;
+        text-align: center;
+    }
+    /*link properties*/
+    #HomeLink, #AboutUsLink, #MethoodLink, #RequirementsLink, #CostsLink, #ContactUsLink {
+        font-family: 'monserrat', sans-serif;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 13px;
+    }
+    .LangFlagContainer {
+        justify-content: space-between;
+        width: 740px;
+        margin: auto;
+    }
+    .LangFlagBoxCont {
+        display: flex;
+        float: right;
+        margin: 10px 22px 10px 10px;
+        align-items: center;
+    }
+    #LangFlagTextLink, #LnagLink, #LnagLink1 {
+        padding-right: 5px;
+        font-size: 13px;
+        font-family: 'monserrat', sans-serif;
+        color: #000;
+        text-decoration: none;
+    }
+    /******* site-footer  END   *******/
+
+}
+/*4. Media query for 960px to 1365px screen*/
+@media only screen and (min-width: 960px) and (max-width: 1365px) {
+    /******* fp-2  START *******/
+    .MethodContainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .MethodTextBox {
+        width: 350px;
+        margin: auto;
+        justify-content: space-between;
+    }
+    .MethodTittle {
+        width: 350px;
+        justify-content: space-between;
+        margin: 30px auto 4px auto;
+        font-size: 50px;
+        color: #FFFFFF;
+        text-transform: capitalize;
+        text-align: left;
+        font-family: 'monserrat', sans-serif;
+        font-weight: 900;
+    }
+    .MethoodPagaph {
+        width: 350px;
+        text-align: left;
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 21px;
+        line-height: 25px;
+        font-weight: 300;
+        margin: 25px auto 50px auto;
+    }
+    .MethoodButtonBox {
+        width: 350px;
+        margin: 10px auto 80px auto;
+        justify-content: space-between;
+        padding: 25px;
+        text-align: center;
+        background-color: #3a6cb4;
+        color: #fff;
+        text-shadow: none;
+    }
+    .MethoodButton {
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        color: #fff;
+        font-size: 19px;
+    }
+    .MethodImgBox {
+        justify-content: space-between;
+        margin: auto;
+    }
+    .MethodImg {
+        width: 400px;
+        height: auto;
+        margin: 2px auto 50px auto;
+    }
+    /******* fp-2  END   *******/
+    /******* fp-7 CONTACT START *******/
+    .divNaranja {
+        border-bottom: 4px solid #d8d8d821;
+        border-top: 4px solid #d8d8d821;
+        border-left: 1px solid #d8d8d821;
+        border-right: 1px solid #d8d8d821;
+        width: 700px;
+        height: 760px;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 19px;
+        background-color: #ffffff38;
+        display: block;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .DivMagenta {
+        justify-content: space-between;
+        margin: auto;
+        font-size: 20px;
+        color: #FFFFFF;
+        text-transform: lowercase;
+        text-align: center;
+        font-family: 'monserrat', sans-serif;
+        font-weight: 400;
+    }
+    #wpcf7-f52-p11-o2 {
+        width: 500px;
+        height: 740px;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .wpcf7-select {
+        height: 40px;
+        border: 2px solid #fcfcfc !important;
+        border-radius: 5px;
+        text-align: left;
+        margin-left: 0px;
+        padding-left: 10px;
+        padding-right: 5px;
+        font-size: 14px;
+        color: #fff !important;
+        background-color: #b1906f !important;
+    }
+    #tuNombreCompleto, #TuCorreoEle, #MontoRecuperar, #CuentaNosTuCaso {
+        background-color: #b1906f !important;
+        border: 2px solid #fcfcfc !important;
+        color: #ffffff !important;
+        width: 500px;
+        height: 40px;
+    }
+    #tuPais {
+        background-color: #b1906f;
+        border: 2px solid #fcfcfc;
+        width: 500px;
+        height: 40px;
+        font-weight: 400;
+        color: #fff !important;
+    }
+    #IndicativoTel {
+        width: 500px;
+        background-color: #b1906f !important;
+    }
+    #TuMovil {
+        height: 40px;
+        border: 2px solid #fcfcfc !important;
+        border-radius: 5px;
+        background-color: #b1906f !important;
+        width: 500px;
+        position: relative;
+    }
+    #CuentaNosTuCaso {
+        min-width: 500px;
+        max-width: 500px;
+        min-height: 150px;
+        height: 100px;
+        max-height: 100px;
+        overflow: auto;
+        text-align: left;
+        color: #fff !important;
+        resize: none;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-between;
+    }
+    /*placeholder text white START*/
+	::-webkit-input-placeholder { /* WebKit browsers */
+        color: #fff !important;
+        opacity: 1;
+    }
+    :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+        color: #fff !important;
+        opacity: 1;
+    }
+    ::-moz-placeholder { /* Mozilla Firefox 19+ */
+        color: #fff !important;
+        opacity: 1;
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10+ */
+        color: #000 !important;
+        opacity: 1;
+    }
+    /*placeholder text white END*/
+    /******* fp-7 CONTACT END   *******/
+    /******* site-footer START  *******/
+    .divazul { /*Container of all logo and menu elements*/
+        /*border: 1px solid cyan;*/ 
+        display: flex; 
+        justify-content: space-between;
+        margin: auto;
+        width: 700px;
+        margin-top: 30px;
+    }
+    .DivAmarillo {
+        width: 208px; 
+        float: left;
+    }
+    .DivRojo {
+        /*border: 1px dotted red;*/
+        float: left;
+        width: 208px;
+    }
+    #DivRojoImg {
+        width: 208px;
+        float: left;
+    }
+    .DivNaranjaMenuContainer {
+        /*border: 1px solid orange;*/ 
+        width: 492px; 
+        float: right; 
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .DivVerdeMenuItem {
+        /*border: 1px solid green;*/
+        height: 30px;
+        width: 80px;
+        text-align: center;
+    }
+    /*link properties*/
+    .LangFlagContainer {
+        justify-content: space-between;
+        width: 700px;
+        margin: auto;
+    }
+    .LangFlagBoxCont {
+        display: flex;
+        float: right;
+        margin: 10px 10px 10px 10px;
+        align-items: center;
+    }
+    #LangFlagTextLink, #LnagLink, #LnagLink1 {
+        padding-right: 4px;
+        font-size: 10px;
+        font-family: 'monserrat', sans-serif;
+        color: #000;
+        text-decoration: none;
+    }
+    /******* site-footer  END   *******/
+
+}
+/*5. Media query for 1366px to 1920px screen*/
+@media only screen and (min-width: 1366px) and (max-width: 1920px) {
+    /* 1366 to 1920 px web */
+    /******* fp-2  START *******/
+    .MethodContainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .MethodTextBox {
+        width: 350px;
+        margin: auto;
+        justify-content: space-between;
+    }
+    .MethodTittle {
+        width: 350px;
+        justify-content: space-between;
+        margin: 30px auto 4px auto;
+        font-size: 50px;
+        color: #FFFFFF;
+        text-transform: capitalize;
+        text-align: left;
+        font-family: 'monserrat', sans-serif;
+        font-weight: 900;
+    }
+    .MethoodPagaph {
+        width: 350px;
+        text-align: left;
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 21px;
+        line-height: 25px;
+        font-weight: 300;
+        margin: 25px auto 50px auto;
+    }
+    .MethoodButtonBox {
+        width: 350px;
+        margin: 10px auto 80px auto;
+        justify-content: space-between;
+        padding: 25px;
+        text-align: center;
+        background-color: #3a6cb4;
+        color: #fff;
+        text-shadow: none;
+    }
+    .MethoodButton {
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        color: #fff;
+        font-size: 19px;
+    }
+    .MethodImgBox {
+        justify-content: space-between;
+        margin: auto;
+    }
+    .MethodImg {
+        width: 400px;
+        height: auto;
+        margin: 2px auto 50px auto;
+    }
+    /******* fp-2 END   *******/
+    /******* fp-7 CONTACT START *******/
+    .divNaranja {
+        border-bottom: 4px solid #d8d8d821;
+        border-top: 4px solid #d8d8d821;
+        border-left: 1px solid #d8d8d821;
+        border-right: 1px solid #d8d8d821;
+        width: 1000px;
+        height: 760px;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 19px;
+        background-color: #ffffff38;
+        display: block;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    #wpcf7-f52-p11-o2 {
+        width: 500px;
+        height: 640px;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+    }
+	.DivMagenta {
+        justify-content: space-between;
+        margin: auto;
+        font-size: 20px;
+        color: #FFFFFF;
+        text-transform: lowercase;
+        text-align: center;
+        font-family: 'monserrat', sans-serif;
+        font-weight: 400;
+    }
+    .wpcf7-select {
+        height: 40px;
+        border: 2px solid #fcfcfc !important;
+        border-radius: 5px;
+        text-align: left;
+        margin-left: 0px;
+        padding-left: 10px;
+        padding-right: 5px;
+        font-size: 14px;
+        color: #fff !important;
+        background-color: #b1906f !important;
+    }
+    #tuNombreCompleto, #TuCorreoEle, #MontoRecuperar, #CuentaNosTuCaso {
+        background-color: #b1906f !important;
+        border: 2px solid #fcfcfc !important;
+        color: #ffffff !important;
+        width: 600px;
+        height: 40px;
+    }
+    #tuPais {
+        background-color: #b1906f;
+        border: 2px solid #fcfcfc;
+        width: 600px;
+        height: 40px;
+        font-weight: 400;
+        color: #fff !important;
+    }
+    #IndicativoTel {
+        width: 600px;
+        background-color: #b1906f !important;
+    }
+    #TuMovil {
+        height: 40px;
+        border: 2px solid #fcfcfc !important;
+        border-radius: 5px;
+        background-color: #b1906f !important;
+        width: 600px;
+        position: relative;
+    }
+    #CuentaNosTuCaso {
+        min-width: 600px;
+        max-width: 600px;
+        min-height: 150px;
+        height: 150px;
+        max-height: 150px;
+        overflow: auto;
+        text-align: left;
+        color: #fff !important;
+        resize: none;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-between;
+    }
+	/*placeholder text white START*/
+	::-webkit-input-placeholder { /* WebKit browsers */
+    color: #fff !important;
+    opacity: 1;
+    }
+    :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+        color: #fff !important;
+        opacity: 1;
+    }
+    ::-moz-placeholder { /* Mozilla Firefox 19+ */
+        color: #fff !important;
+        opacity: 1;
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10+ */
+        color: #000 !important;
+        opacity: 1;
+    }
+	/*placeholder text white END*/
+    /******* fp-7 CONTACT  END   *******/
+    /******* site-footer START  *******/
+    .divazul { /*Container of all logo and menu elements*/
+        /*border: 1px solid cyan;*/ 
+        display: flex; 
+        justify-content: space-between;
+        margin: auto;
+        width: 1200px;
+    }
+    .DivAmarillo {
+        width: 360px; 
+        float: left;
+    }
+    .DivRojo {
+        /*border: 1px dotted red;*/
+        float: left;
+        width: 360px;
+    }
+    #DivRojoImg {
+        width: 360px;
+    }
+    .DivNaranjaMenuContainer {
+        /*border: 1px solid orange;*/ 
+        width: 840px; 
+        float: right; 
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .DivVerdeMenuItem {
+        /*border: 1px solid green;*/ 
+        height: 30px;
+        width: 140px;
+        text-align: center;
+    }
+    /*link properties*/
+    .LangFlagContainer {
+        justify-content: space-between;
+        width: 1200px;
+        margin: auto;
+    }
+    .LangFlagBoxCont {
+        display: flex;
+        float: right;
+        margin: 10px 22px 10px 10px;
+        align-items: center;
+    }
+    #LangFlagTextLink, #LnagLink, #LnagLink1 {
+        padding-right: 5px;
+        font-size: 13px;
+        font-family: 'monserrat', sans-serif;
+        color: #000;
+        text-decoration: none;
+    }
+    /******* site-footer  END   *******/
+}
+/*6. Media query for 1921px to 4096px screen*/
+@media only screen and (min-width: 1921px) and (max-width: 4096px) {
+    /* 1921 to 4096 px web */
+    /******* fp-2  START *******/
+    .MethodContainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .MethodTextBox {
+        width: 500px;
+        margin: auto;
+        justify-content: space-between;
+    }
+    .MethodTittle {
+        width: 500px;
+        justify-content: space-between;
+        margin: 30px auto 4px auto;
+        font-size: 90px;
+        color: #FFFFFF;
+        text-transform: capitalize;
+        text-align: left;
+        font-family: 'monserrat', sans-serif;
+        font-weight: 900;
+    }
+    .MethoodPagaph {
+        width: 560px;
+        text-align: left;
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        line-height: 35px;
+        font-weight: 300;
+        margin: 25px auto 50px auto;
+    }
+    .MethoodButtonBox {
+        width: 500px;
+        margin: 10px auto 80px auto;
+        justify-content: space-between;
+        padding: 25px;
+        text-align: center;
+        background-color: #3a6cb4;
+        color: #fff;
+        text-shadow: none;
+    }
+    .MethoodButton {
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        color: #fff;
+        font-size: 19px;
+    }
+    .MethodImgBox {
+        justify-content: space-between;
+        margin: auto;
+    }
+    .MethodImg {
+        width: 500px;
+        height: auto;
+        margin: 2px auto 50px auto;
+    }
+    /******* fp-2  END   *******/
+    /******* fp-7 CONTACT START *******/
+    .divNaranja {
+        border-bottom: 4px solid #d8d8d821;
+        border-top: 4px solid #d8d8d821;
+        border-left: 1px solid #d8d8d821;
+        border-right: 1px solid #d8d8d821;
+        width: 1000px;
+        height: 760px;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 19px;
+        background-color: #ffffff38;
+        display: block;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .DivMagenta {
+        justify-content: space-between;
+        margin: auto;
+        font-size: 27px;
+        color: #FFFFFF;
+        text-transform: lowercase;
+        text-align: center;
+        font-family: 'monserrat', sans-serif;
+        font-weight: 400;
+    }
+    #wpcf7-f52-p11-o2 {
+        width: 900px;
+        height: 740px;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .wpcf7-select {
+        height: 45px;
+        border: 2px solid #fcfcfc !important;
+        border-radius: 5px;
+        text-align: left;
+        margin-left: 0px;
+        padding-left: 10px;
+        padding-right: 5px;
+        font-size: 14px;
+        color: #fff !important;
+        background-color: #b1906f !important;
+    }
+    #tuNombreCompleto, #TuCorreoEle, #MontoRecuperar, #CuentaNosTuCaso {
+        background-color: #b1906f !important;
+        border: 2px solid #fcfcfc !important;
+        color: #ffffff !important;
+        width: 900px;
+        height: 45px;
+    }
+    #tuPais {
+        background-color: #b1906f;
+        border: 2px solid #fcfcfc;
+        width: 900px;
+        height: 45px;
+        font-weight: 400;
+        color: #fff !important;
+    }
+    #IndicativoTel {
+        width: 900px;
+        background-color: #b1906f !important;
+    }
+    #TuMovil {
+        height: 45px;
+        border: 2px solid #fcfcfc !important;
+        border-radius: 5px;
+        background-color: #b1906f !important;
+        width: 900px;
+        position: relative;
+    }
+    #CuentaNosTuCaso {
+        min-width: 900px;
+        max-width: 900px;
+        min-height: 150px;
+        height: 150px;
+        max-height: 150px;
+        overflow: auto;
+        text-align: left;
+        color: #fff !important;
+        resize: none;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-between;
+    }
+    /*placeholder text white START*/
+	::-webkit-input-placeholder { /* WebKit browsers */
+        color: #fff !important;
+        opacity: 1;
+    }
+    :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+        color: #fff !important;
+        opacity: 1;
+    }
+    ::-moz-placeholder { /* Mozilla Firefox 19+ */
+        color: #fff !important;
+        opacity: 1;
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10+ */
+        color: #000 !important;
+        opacity: 1;
+    }
+    /*placeholder text white END*/
+    /******* fp-7 CONTACT END   *******/
+    /******* site-footer START  *******/
+    .divazul { /*Container of all logo and menu elements*/
+        /*border: 1px solid cyan;*/ 
+        display: flex; 
+        justify-content: space-between;
+        margin: auto;
+        width: 1400px;
+    }
+    .DivAmarillo {
+        width: 360px; 
+        float: left;
+    }
+    .DivRojo {
+        /*border: 1px dotted red;*/
+        float: left;
+        width: 360px;
+        padding-left: 60px;
+    }
+    #DivRojoImg {
+        width: 360px;
+    }
+    .DivNaranjaMenuContainer {
+        /*border: 1px solid orange;*/ 
+        width: 840px; 
+        float: right; 
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .DivVerdeMenuItem {
+        /*border: 1px solid green;*/ 
+        height: 30px;
+        width: 140px;
+        text-align: center;
+    }
+    /*link properties*/
+    .LangFlagContainer {
+        justify-content: space-between;
+        width: 1200px;
+        margin: auto;
+        margin-right: 200px;
+    }
+    .LangFlagBoxCont {
+        display: flex;
+        float: right;
+        margin: 10px 22px 10px 10px;
+        align-items: center;
+    }
+    #LangFlagTextLink, #LnagLink {
+        padding-right: 5px;
+        font-size: 13px;
+        font-family: 'monserrat', sans-serif;
+        color: #000;
+        text-decoration: none;
+    }
+    /******* site-footer  END   *******/
+}
+/*=============================*/
+/* HEADER SETTINGS START */
+.header-before {
+   border-bottom: 0px solid #FFF; /*remove border header */
+}
+a:visited {
+	text-decoration:none;
+}
+/*Remove search form on mobile */
+.search-form {
+	display: none;
+}
+.LangMenuBox {
+	display: block;
+	width: 100%;
+	height: 10px;
+}
+.EngMenu, .EspMenu  {
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+/*LANG flag settings*/
+.EngFlag, .EspFlag {
+	height: 17px;
+	width: 17px;
+}
+/*links color on header menu*/
+.EngMenu, .EspMenu a, a:focus, a:visited {
+	color: #000;
+}
+/*Hamburg menu white */
+.mai-bars { 
+	color: #000;
+}
+.header-before {
+    border-bottom: 0px solid #FFF;
+    background-color: #FFF;
+}/*before header*/
+.site-header {
+	background-color: #FFF; /*header color*/
+}
+.header_bg {
+    background: #FFF;
+}
+/*Header Nav CTA Button*/
+.menu-item-32 {
+	background-color: #00cde8;
+	height: 40px;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 12px;
+	font: 'monserrat', sans-serif;
+	border: 0px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 12px;
+}
+/**/
+.home, .nav-header, .current-menu-item>a, .nav-header, .nav-search,  .nav-header a  {
+	font-family: 'monserrat', sans-serif;
+	color: #000;
+	font-weight: 500;
+	font-size: 12px;
+}
+.home .nav-header .current-menu-item>a, .nav-header .nav-search, .nav-header a {
+	font-family: 'monserrat', sans-serif;
+	color: #000;
+	font-weight: 500;
+	font-size: 12px;
+}

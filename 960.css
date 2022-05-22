@@ -1,0 +1,236 @@
+    /*max-res 960px*/ 
+    /* About Michael section START  */
+    .toprowabout, .bottomrowabout {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .ContenedorCaja {
+        max-width: 930px;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-bottom: 90px;
+        clear: none;
+    }
+    .WebIcono {
+        width: 400px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .H3TituloAzul {
+        text-align: left;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30pt;
+        width: 430px;
+        font-weight: 800;
+        color: #005C9D;
+        max-width: 440px;
+        }
+    .TextoiGris {
+        font-size: 30pt;
+        color: #4d4d4d;
+        font-family: 'Permanent Marker', cursive;
+    }
+    .ParrafoGris {
+        max-width: 430px;
+        text-align: left;
+        color: #2C2C2C;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 300;
+        padding-left: 10px;
+        border-left: 5px solid #0980D3;
+    }
+
+    /* About Michael section END  */
+    /* reasons section START  */ 
+    .FpTittleContainerBlue {
+        width: 800px;
+        border-bottom: 5px solid #005C9D;
+        align-content: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .FpTittleBlue {
+        font-family: 'monserrat', sans-serif;
+        color: #005C9D;
+        font-size: 55pt;
+        font-size: 45px;
+        font-weight: 900;
+    }
+    .BoredOfTittle {
+        width: 800px;
+        font-family: 'Permanent Marker', cursive;
+        color: #4d4d4d;
+        font-size: 29pt;
+        font-weight: 700;
+        text-align: center;
+        margin: 28px auto 60px auto;
+    }
+    .ReasonsPagph {/*Paragraph Prop*/
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24pt;
+        font-weight: 400;
+        color: #333;
+        text-align: center;
+        word-spacing: 1px;
+        max-width: 930px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .reasonscontainer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .reasons {
+        max-width: 930px;
+        padding: 60px 15px 60px 15px;
+    }
+    .ReasonsImg {
+        width: 930px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ReasonsTittle {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 40pt;
+        font-weight: 700;
+        align-content: center;
+        color: #005C9D;
+        text-align: center;
+    }
+    .Fp5AreYouReadyBox {
+        width: 930px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        padding: 15px;
+    }
+    .Fp5TittleAreYouReady {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 57px;
+        font-weight: 900;
+        align-content: center;
+        color: #005C9D;
+        text-align: center;
+    }
+    .ImAllInBox {
+        text-align: center;
+        padding: 15px;
+        background-color: #005C9D;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+        margin-bottom: 40px;
+    }
+    .ImAllInButton {
+        text-align: center;	
+        padding: 10px;
+        color: #fff;
+        font-family: 'Monserrat', sans-serif;
+        font-weight: 900;
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+    /* reasons section END */
+
+   
+/*
+------equivalences in styles ----------
+---------------------------------------
+ORIGINAL---------------NEW STYLE TO COPY PROPERTIES
+
+
+packagebox
+*packtitletext  = ReasonsTittle (Make font color white instead of blue)
+*packpagh       = ReasonsPagph  (Make font color white instead of blue)
+*packimgbox     = ReasonImg      (No changes needed)
+*packagebox     = reasons
+
+*/
+
+/* fp-6 (packages) START */
+.packagescontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.packagebox {
+    max-width: 930px;
+    padding: 60px 15px 60px 15px;
+}
+.packimgbox {
+    width: 930px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.packtitlebox {
+    margin-left: auto;
+    margin-right: auto;
+}
+.packtitletext { /* properties from ReasonsTitle with white text */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40pt;
+    font-weight: 700;
+    align-content: center;
+    color: #fff;
+    text-align: center;
+}
+.packpagh { /**/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24pt;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    word-spacing: 1px;
+    max-width: 930px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+/** BUTTON PROPERTIES don't change with screen size change **/
+.packbttnbox { /*button container box properties*/
+    width: 100%;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    position: relative;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+.packctabutton a, .packctabutton a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+.packctabutton { /*add plan button properties */
+    background-color: #0980D3;
+    color: black;
+    border: 1px solid #e7e7e7;
+    border-radius: 7px;
+    padding: 16px 32px;
+    text-align: center;
+    display: flexbox;
+    margin: 4px auto 4px auto;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    font-family: 'Permanent Marker', cursive;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #fff;
+    width: 200px;
+}
+.packctabutton:hover {
+    background-color: #e7e7e7;
+    color: #0980D3;
+    border: 1px solid #0980D3;
+}
+/* fp-6 (packages) END */     

@@ -1,0 +1,829 @@
+@media screen  and (min-width: 1368px) and (max-width: 1920px) {
+    /*Search form and MAI Side Menu on Mobile START*/
+    .search-form {
+        margin-bottom: 0px;
+        display: none;
+    }
+    .has-side-menu .mai-menu {
+        background-color: #dcc7b7;
+    }
+    .mobile-menu .current-menu-item>a, .mobile-menu .current-page-ancestor>a {
+        color: #4a4f54;
+        font-weight: 500;
+        font-family: 'Open Sans', sans-serif;
+        border-bottom: 1px solid #4a4f54;
+        margin: 5px 0px;
+    }
+    /*Search form and MAI Side Menu on Mobile END*/
+    /*Footer Widgets START*/
+    .footer-widgets>.wrap, .nav-primary>.wrap, .nav-secondary>.wrap, .section>.wrap, .site-footer>.wrap, .site-inner {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .footer-widgets .widget-title, .footer-widgets .widgettitle {
+        color: #fff;
+        font-family: 'Flexti';
+        font-weight: 300;
+    }
+    /*Footer Widgets END*/
+    /* Front page 1 START*/
+    .frontpage1container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        min-width: 559px;
+        justify-content: space-between;
+        margin: 0px auto;
+    }
+    .fp1divbox {
+        min-width: 1200px;
+        display: block;
+        margin: 0px auto;
+    }
+    .fp1title {
+        width: 1200px;
+        font-family: 'Felixti';
+        font-size: 55px;
+        color: #000;
+        margin: 553px auto 29px auto;
+        text-align: center;
+    }
+    .fp1subtitle {
+        width: 1200px;
+        font-family: 'Open Sans', sans-serif;
+        color: #000;
+        font-size: 24px;
+        font-weight: 400;
+        margin: 5px 0px 10px 0px;
+    }
+    .fp1porder {
+        width: 1200px;
+        border-top: 5px solid #000;
+        min-height: 15px;
+        height: 15px;
+        max-height: 25px;
+        background-color: #C4BEB6;
+        margin: 10px 0px 0px 0px;
+    }
+    /*Front page 1 END*/
+    /* Front page 2 START*/
+    .fp2container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 1200px;
+        margin: 0px auto;
+    }
+    .fp2leftbox {
+        width: 559px;
+        margin: 0px ;
+        float: left;
+    }
+    .fp2leftboximg {
+        width: 559px;
+        margin: 0px ;
+        float: left;
+    }
+    .fp2rightbox {
+        background-image: url("https://lgsurgeryrecovery.com/wp-content/uploads/2021/12/Front-page-2_background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 559px;
+    }
+    .fp2aboutcontainer {
+        width: 559px;
+        height: auto;
+        background-color: #ffffff;
+        border-left: 7px solid #4A4F54;
+        border-bottom: 7px solid #4A4F54;
+        padding: 30px;
+        margin: 100px 10px 100px 10px;
+    }
+    .fp2introtext {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 25px;
+        color: #4a4f54;
+        font-weight: 400;
+        margin: 10px 0px 5px 0px;
+    }
+    .fp2titleintro {
+        font-family: 'Felixti';
+        color: #dcc7b7;
+        line-height: 45px;
+        font-size: 40px;
+        margin: 20px 0px 7px 0px;
+    }
+    .fp2titlebottomborder {
+        width: 100%;
+        border-bottom: 5px solid #4A4F54;
+        margin-bottom: 35px;
+    }
+    .fp2subintrotext {
+        font-family: 'Open Sans', sans-serif;
+        color: #000;
+        font-weight: 500;
+        line-height: 20px;
+        font-size: 15px;
+        margin: 20px 0px 25px 0px;
+        padding-left: 10px;
+        border-left: 8px solid #dcc7b7;
+    }
+    .fp2aboutparagraphbox > p {
+        font-family: 'Open Sans', sans-serif;
+        color: #000;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 25px;
+        margin: 25px 0px 20px 15px;
+    }
+    .fp2buttonbox {
+        display: inline-block;
+        justify-content: center;
+        margin: 15px 0px;
+    }
+    .fp2ctabutton {
+        width: 100px;
+        padding: 10px 16px;
+        margin: 0px 0px 0px 10px;
+        background-color: #DCC7B7;
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+        color: #ffffff !important;
+        text-decoration: none !important;
+        font-weight: 700;
+        cursor: pointer;
+        transition: ease-out;
+        transition-duration: 400ms;
+    }
+    .fp2ctabutton:hover {
+        width: 100px;
+        padding: 10px 16px;
+        margin: 0px 0px 0px 10px;
+        background-color: #ffffff;
+        border: 1px solid #DCC7B7;
+        border-radius: 0px;
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        color: #DCC7B7 !important;
+        text-decoration: none !important;
+        cursor: pointer;
+        transition: ease-out;
+        transition-duration: 400ms;
+    }
+    /*Front page 2 END*/
+    
+    /* Front page 3 NEW START*/
+    .fp3container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        width: 1200px;
+        margin: 0px auto;
+    }
+    .fp3leftbox {
+        width: 559px;
+        margin: 0px ;
+        float: left;
+    }
+    .fp3rightboximg {
+        width: 559px;
+        margin: 18px auto 18px auto;
+        float: left;
+    }
+    .fp3rightbox {
+        background-image: url("https://lgsurgeryrecovery.com/wp-content/uploads/2021/12/Front-page-2_background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 559px;
+    }
+    .fp3aboutcontainer {
+        width: 559px;
+        height: auto;
+        background-color: #ffffff;
+        padding: 10px;
+        margin: 10px auto 10px auto;
+    }
+    .fp3titleintro {
+        font-family: 'Felixti';
+        color: #dcc7b7;
+        line-height: 30px;
+        font-size: 29px;
+        margin: 16px 0px 3px 0px;
+    }
+    .fp3aboutparagraphbox > p {
+        font-family: 'Open Sans', sans-serif;
+        color: #000;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        margin: 40px auto;
+    }
+    .fp3ctabutton:hover {
+        width: 100px;
+        padding: 10px 16px;
+        margin: 20px 0px 0px 20px;
+        background-color: #ffffff;
+        border: 1px solid #DCC7B7;
+        border-radius: 0px;
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        color: #DCC7B7 !important;
+        text-decoration: none !important;
+        cursor: pointer;
+        transition: ease-out;
+        transition-duration: 400ms;
+    }
+    .fp3buttoncontainer {
+        width: 559px;
+        height: 45px;
+        margin: 90px 0px 20px 0px;
+        display: flex;
+    }
+    .fp3primarybutton > a {
+        width: 100px;
+        padding: 20px 10px;
+        margin: 0px 10px 0px 10px;
+        background-color: #3D4543;
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+        color: #ffffff !important;
+        text-decoration: none !important;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    .fp3primarybutton > a:hover {
+        width: 100px;
+        padding: 20px 10px;
+        margin: 0px 10px 0px 10px;
+        background-color: #ffffff;
+        border: 1px solid #3D4543;
+        border-radius: 0px;
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        color: #3D4543 !important;
+        text-decoration: none !important;
+        cursor: pointer;
+        transition: ease-out;
+        transition-duration: 400ms;
+    }
+    .fp3secondarybutton > a {
+        width: 100px;
+        padding: 20px 10px;
+        margin: 0px 10px 0px 10px;
+        background-color: #DCC7B7;
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+        color: #ffffff !important;
+        text-decoration: none !important;
+        font-weight: 700;
+        cursor: pointer;
+        transition: ease-out;
+        transition-duration: 400ms;
+    }
+    .fp3secondarybutton > a:hover {
+        width: 100px;
+        padding: 20px 10px;
+        margin: 0px 10px 0px 10px;
+        background-color: #ffffff;
+        border: 1px solid #DCC7B7;
+        border-radius: 0px;
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        color: #DCC7B7 !important;
+        text-decoration: none !important;
+        cursor: pointer;
+        transition: ease-out;
+        transition-duration: 400ms;
+    }
+    /*Front page 3 NEW END*/
+    
+    /* Front page 4 START*/
+    .fp4container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0px auto;
+        width: 1200px;
+        /*border: 1px solid red;*/
+    }
+    .fp4servicescontainer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 559px;
+        margin: 0px auto;
+        /*border: 1px solid red;*/
+    }
+    .fp4imgleftbox {
+        width: 559px;
+        margin: 0px auto;
+    }
+    .fp4img {
+        width: 559px;
+        margin: 0px auto;
+    }
+    .fp4titlebox {
+        width: 559px;
+    }
+    .fp4headertitle {
+        font-family: 'Felixti';
+        font-size: 30px;
+        float: right;
+        margin: 5px 0px 10px 10px;
+    }
+    .fp4servicecontainer {
+        display: flex;
+        flex-wrap: wrap;
+        width: 559px;
+        height: 235px;
+        border-left: 5px solid #3D4543;
+        border-bottom: 5px solid #3D4543;
+        margin: 5px 10px 5px 10px;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: stretch;
+        /*border: 1px solid red;*/
+    }
+    .fp4serviceimage {
+        width: 230px !important;
+        height: 230px !important;
+        /*border: 1px solid green;*/
+    }
+    .fp4servicetitle {
+        width: 300px;
+        height: 170px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 25px;
+        text-align: right;
+        font-weight: 900;
+        margin: 0px 0px 0px 8px;
+        /*border: 1px solid blueviolet;*/
+    }
+    .fp4buttoncontainer {
+        width: 300px;
+        height: 50px;
+        float: right;
+        position: relative;
+        align-items: flex-end;
+        margin: 0px 0px 0px 8px;
+        /*border: 1px solid yellowgreen;*/
+    }
+    .fp4button {
+        padding: 7px 20px;
+        background-color: #DCC7B7;
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+        color: #ffffff !important;
+        text-decoration: none !important;
+        font-weight: 700;
+        cursor: pointer;
+        transition: ease-out;
+        transition-duration: 400ms;
+        float: right;
+    }
+    .fp4button:hover {
+        padding: 7px 20px;
+        background-color: #ffffff;
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+        color: #DCC7B7 !important;
+        border: 1px solid #DCC7B7;
+        text-decoration: none !important;
+        font-weight: 700;
+        cursor: pointer;
+        transition: ease-out;
+        transition-duration: 400ms;
+        float: right;
+    }
+    /*Front page 4 END*/
+    /* Front page 6 START*/
+    .fp6container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 1200px;
+        margin: 0px auto;
+    }
+    .fp6leftbox {
+        width: 559px;
+        margin: 0px ;
+        float: left;
+    }
+    .fp6leftboximg {
+        width: 559px;
+        margin: 0px ;
+        float: left;
+    }
+    .fp6rightbox {
+        background-image: url("https://lgsurgeryrecovery.com/wp-content/uploads/2021/12/Front-page-2_background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 559px;
+    }
+    .fp6aboutcontainer {
+        width: 559px;
+        height: auto;
+        background-color: #ffffff;
+        border-left: 7px solid #4A4F54;
+        border-bottom: 7px solid #4A4F54;
+        padding: 30px;
+        margin: 100px 10px 100px 10px;
+    }
+    .fp6titleintro {
+        font-family: 'Felixti';
+        color: #dcc7b7;
+        line-height: 45px;
+        font-size: 35px;
+        margin: 17px 0px 10px 0px;
+    }
+    .fp6aboutparagraphbox > p {
+        font-family: 'Open Sans', sans-serif;
+        color: #000;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 27px;
+        margin: 25px 10px;
+    }
+    .fp6buttonbox {
+        display: inline-block;
+        justify-content: center;
+    }
+    .fp6ctabutton {
+        width: 100px;
+        padding: 10px 16px;
+        margin: 0px 0px 0px 10px;
+        background-color: #DCC7B7;
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+        color: #ffffff !important;
+        text-decoration: none !important;
+        font-weight: 700;
+        cursor: pointer;
+        transition: ease-out;
+        transition-duration: 400ms;
+    }
+    .fp6ctabutton:hover {
+        width: 100px;
+        padding: 10px 16px;
+        margin: 0px 0px 0px 10px;
+        background-color: #ffffff;
+        border: 1px solid #DCC7B7;
+        border-radius: 0px;
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        color: #DCC7B7 !important;
+        text-decoration: none !important;
+        cursor: pointer;
+        transition: ease-out;
+        transition-duration: 400ms;
+    }
+    /*Front page 6 END*/
+    
+    /*Front page 7 END*/
+    
+    .fp7container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0px auto;
+        width: 1200px;
+        /*border: 1px solid red;*/
+    }
+    .fp7servicescontainer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 559px;
+        margin: 0px auto;
+        /*border: 1px solid red;*/
+    }
+    .fp7imgrightbox {
+        width: 559px;
+        margin: 0px auto;
+    }
+    .fp7img {
+        width: 559px;
+        margin: 0px auto;
+    }
+    .fp7titlebox {
+        width: 559px;
+    }
+    .fp7headertitle {
+        font-family: 'Felixti';
+        font-size: 30px;
+        float: right;
+        margin: 5px 0px 10px 10px;
+    }
+    .fp7servicecontainer {
+        display: flex;
+        flex-wrap: wrap;
+        width: 559px;
+        height: 235px;
+        border-left: 5px solid #3D4543;
+        border-bottom: 5px solid #3D4543;
+        margin: 5px 10px 5px 10px;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: stretch;
+        /*border: 1px solid red;*/
+    }
+    .fp7serviceimage {
+        width: 230px !important;
+        height: 230px !important;
+        /*border: 1px solid green;*/
+    }
+    .fp7servicetitle {
+        width: 300px;
+        height: 170px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 25px;
+        text-align: right;
+        font-weight: 900;
+        margin: 0px 0px 0px 8px;
+        /*border: 1px solid blueviolet;*/
+    }
+    .fp7buttoncontainer {
+        width: 300px;
+        height: 50px;
+        float: right;
+        position: relative;
+        align-items: flex-end;
+        margin: 0px 0px 0px 8px;
+        /*border: 1px solid yellowgreen;*/
+    }
+    .fp7button {
+        padding: 7px 20px;
+        background-color: #DCC7B7;
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+        color: #ffffff !important;
+        text-decoration: none !important;
+        font-weight: 700;
+        cursor: pointer;
+        transition: ease-out;
+        transition-duration: 400ms;
+        float: right;
+    }
+    .fp7button:hover {
+        padding: 7px 20px;
+        background-color: #ffffff;
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+        color: #DCC7B7 !important;
+        border: 1px solid #DCC7B7;
+        text-decoration: none !important;
+        font-weight: 700;
+        cursor: pointer;
+        transition: ease-out;
+        transition-duration: 400ms;
+        float: right;
+    }
+    
+    /* Front page 7 START*/
+    
+    /* Front page 8 START*/
+    .fp8container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 20px auto;
+        width: 1200px;
+        justify-content: center;
+    }
+    .fp8antesdespuestittle {
+        font-family: 'Felixti';
+        font-size: 65px;
+        text-align: center;
+        color: #000 !important;
+        width: 1200px;
+        margin: 20px auto 10px auto;
+        display: block;
+    }
+    .fp8antesdespuessubtitle {
+        font-family: 'Felixti';
+        font-size: 60px;
+        text-align: center;
+        color: #333 !important;
+        width: 1200px;
+        margin: 5px auto 35px auto;
+        display: block;
+    }
+    
+    .fp8bottomborder {
+        width: 1200px;
+        height: 15px;
+        border-top: 5px solid #4a4f54;
+        margin: 20px auto;
+    }
+    .fp8buttoncontainer {
+        width: 1200px;
+        height: 40px;
+        position: relative;
+        margin: 35px auto 0px auto;
+        /*border: 1px solid yellowgreen;*/
+    }
+    .fp8button {
+        padding: 15px 35px;
+        background-color: #3D4543;
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+        color: #ffffff !important;
+        text-decoration: none !important;
+        font-weight: 700;
+        cursor: pointer;
+        transition: ease-out;
+        transition-duration: 400ms;
+        float: right;
+    }
+    .fp8button:hover {
+        padding: 15px 35px;
+        background-color: #ffffff;
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+        color: #ffffff !important;
+        border: 1px solid #DCC7B7;
+        text-decoration: none !important;
+        font-weight: 700;
+        cursor: pointer;
+        transition: ease-out;
+        transition-duration: 400ms;
+        float: right;
+    }
+    /* Front page 8 END*/
+    /* Front page 8 START*/
+    .fp9container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 20px auto;
+        width: 1200px;
+        justify-content: center;
+    }
+    .fp9contactformbox {
+        width: 1200px;
+        margin: 150px auto;
+        display: block;
+    }
+    .fp9contacttitlebox {
+        width: 1200px;
+        margin: 0px auto;
+        text-align: center;
+    }
+    .fp9contactheader {
+        font-family: 'Felixti';
+        font-size: 5.03em;
+        border-bottom: 5px solid #dcc7b7;
+        margin: 0px 0px 5px 0px;
+    }
+    .fp9contactbox {
+        width: 1200px;
+    }
+    .fp9inputrow {
+        float: left;
+        width: 1200px;
+        margin: 12px 0px;
+    }
+    .fp9sendbuttonbox {
+       margin-top: 30px;
+    }
+    input[type=submit] {
+        font-size: 1.6rem;
+        padding: 20px;
+        margin: 20px auto;
+        display: block;
+        width: 250px;
+        max-width: 180px;
+        background-color: #dcc7b7;
+        color: #000;
+        font-weight: 500;
+        text-transform: uppercase !important;
+    }
+    /*Contact form fields properties*/
+    .ContactNombres {
+        background-color: #dcc7b7 !important;
+        border-bottom: 2px solid #fff !important;
+        border-radius: 0px !important;
+        width: 1200px !important;
+        height: 49px !important;
+        margin: 8px auto;
+        display: block !important;
+    }
+    .ContactApellidos {
+        background-color: #dcc7b7 !important;
+        border-bottom: 2px solid #fff !important;
+        border-radius: 0px !important;
+        width: 1200px !important;
+        height: 49px !important;
+        margin: 8px auto;
+        display: block !important;
+    }
+    .ContactTelefonoDeContacto {
+        background-color: #dcc7b7 !important;
+        border-bottom: 2px solid #fff !important;
+        border-radius: 0px !important;
+        width: 1200px !important;
+        height: 49px !important;
+        margin: 8px auto;
+        display: block !important;
+    }
+    .ContactCorreoDeContacto {
+        background-color: #dcc7b7 !important;
+        border-bottom: 2px solid #fff !important;
+        border-radius: 0px !important;
+        width: 1200px !important;
+        height: 49px !important;
+        margin: 8px auto;
+        display: block !important;
+    }
+    /*textareaproperties*/
+    .ContactTuMensaje {
+        background-color: #dcc7b7 !important;
+        border-bottom: 2px solid #fff !important;
+        border-radius: 0px !important;
+        width: 1200px !important;
+        height: 340px !important;
+        margin: 8px auto !important;
+        display: block !important;
+    }
+    ::-webkit-input-placeholder { /* WebKit browsers */
+        color: #000 !important;
+        font-weight: 400 !important;
+        opacity: 1;
+    }
+    :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+        color: #000 !important;
+        font-weight: 400 !important;
+        opacity: 1;
+    }
+    ::-moz-placeholder { /* Mozilla Firefox 19+ */
+        color: #000 !important;
+        font-weight: 400 !important;
+        opacity: 1;
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10+ */
+        color: #000 !important;
+        font-weight: 400 !important;
+        opacity: 1;
+    }
+    /*Front page 8 END*/
+    /*Front pages CCS END*/
+    /*Service Pages CSS START*/
+    /**/
+    /*Service page SECTION 1 START*/
+    .spsection1 {}
+    /*Service page SECTION 1 END*/
+    
+    /*Service page SECTION 2 START*/
+    .spsection2box {}
+    .spsection2imgbox {}
+    .spsection2img {}
+    .spsection2textbox {}
+    .spsection2headtitle {}
+    .spsection2paragraph {}
+    /*Service page SECTION 2 END*/
+    
+    /*Service page SECTION 3 START*/
+    .spsection3box {}
+    .spsection3imgrow {}
+    .spsection3imgbox {}
+    .spsection3img {}
+    /*Service page SECTION 3 END*/
+    
+    /*Service page SECTION 4 START*/
+    .spsection4box {}
+    .spsection4leftbox {}
+    .spsection4rightdiv {}
+    .spsection4rightimg {}
+    .spserviceparagraph {}
+    .spctabuttonbox {}
+    .spbuttonprimary > a {}
+    .spbuttonprimary > a:hover {}
+    .spbuttonsecondary > a {}
+    .spbuttonsecondary > a:hover {}
+    /*Service page SECTION 4 END*/    
+    }

@@ -1,0 +1,53 @@
+.fp6container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+.fp6requestaptbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 330px;
+    margin: 0px auto;
+}
+.fp6headertitle {
+    font-family: Felixti;
+    font-size: 2.5em;
+    text-align: center;
+    color: #ffffff !important;
+    min-width: 330px;
+    max-width: 574px;
+    margin: 25px 10px 25px 10px;
+}
+.fp6rowcontact {
+    min-width: 330px;
+    max-width: 574px;
+    margin: 10px 10px;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    display: flex;
+}
+.fp6iconcontactbox {
+    color: #ffffff;
+    font-size: 35px;
+    width: 30px;
+    margin: 0px 10px 0px 0px;
+}
+.fp6inputfieldbox {
+    color: #ffffff;
+    float: left;
+    width: 300px;
+    margin: 0px 0px 0px 10px;
+}
+.fp6sendbuttonbox {
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 0px auto;
+    display: block;
+}

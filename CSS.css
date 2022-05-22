@@ -1,0 +1,125 @@
+/*WEB FONTS IMPORT START*/
+/*Import Marguerite*/
+@font-face {
+  font-family: 'Marguerite';
+  src: url('Marguerite.svg#Marguerite') format('svg'), url('https://onlyburgers.com.co/cdn/fonts/Marguerite.ttf') format('truetype'),
+       url('https://onlyburgers.com.co/cdn/fonts/Marguerite.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'marguerite';
+  src: url('https://onlyburgers.com.co/cdn/fonts/marguerite.eot');
+  src: url('https://onlyburgers.com.co/cdn/fonts/marguerite.eot?#iefix') format('embedded-opentype'),
+       url('https://onlyburgers.com.co/cdn/fonts/marguerite.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+/*Import Calculus Sans*/
+/*WEB FONTS IMPORT END*/
+/*Remove search form on mobile */
+.search-form {
+	display: none;
+}
+/*NAV MENU START*/
+.genesis-nav-menu li a {
+    color: #00aff0;
+    display: block;
+	font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+	padding: 15px 20px;
+}
+.genesis-nav-menu a {
+    color: #00aff0 !important;
+    text-decoration: none;
+}
+/*Header Nav CTA Button*/
+.menu-item-30 a {
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #ed3330;
+	color: #fff !important;
+	padding: 20px auto;
+	border-radius: 5px;
+	display: inline-block;
+	border: none;
+	transition: all 0.4s ease 0s;
+	height: 50px;
+}
+.menu-item-30 a:hover, a:focus {
+	background: #00aff0;
+	color: #fff !important;
+	letter-spacing: 1px;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.4s ease 0s;
+}
+
+/*NAV MENU END*/
+/**/
+.site-description, .site-title {
+  font-family: 'marguerite';
+	text-transform: capitalize;
+  padding: 30px 0px 30px 0px;
+}
+/* HEADER SETTINGS END */
+
+/*FRONT PAGE 1 START */
+/*Page header full height */
+.frontpage1bg{
+  height: 90vh;
+	background-repeat: no-repeat;
+	align-content: center;
+	background-size: cover;
+}
+/*FRONT PAGE 1 END */
+
+/*FRONT PAGE 2 START */
+/*FRONT PAGE 2 END */
+
+/*FRONT PAGE 3 START */
+.front-page-3 {
+	background-color: #000;
+	padding: 50px 0px 50px 0px;
+}
+.rowleftimg, .rowrightimg {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	justify-content: space-between;
+	
+}
+.leftimgitem, .rightmenu {
+	float: left;
+	width: 40vw;
+	min-height: 500px;
+	justify-content: space-between;
+	padding: 40px 0px 40px 0px;
+}
+.rightmenu {
+	float:left;
+}
+.menutitle, H2 {
+	font-family: 'marguerite';
+	font-size: 30px !important;
+	color: #00aff0 !important;
+	word-spacing: 10px;
+	letter-spacing: 4px;
+	
+}
+.menuitemimg {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*Menu ingredients UL START*/
+.menuingredintslist {
+	
+}
+/*Menu ingredients UL START*/
+/*FRONT PAGE 3 END */

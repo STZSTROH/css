@@ -1,0 +1,109 @@
+/*REGISTRO FINAL START*/
+/*
+List of CSS classes
+.formcontainer
+    .questionrow
+        .rowicon
+        .inputcontainer
+            .labelcontainer
+            .shortcodebox
+*/
+/*Add border to divs to identify items*/
+/*.formcontainer, .questionrow, .rowicon, .inputcontainer, .labelcontainer, .shortcodebox {
+    border: 1px solid #000;
+}*/
+.formcontainer {
+    width: 100%;
+    background: #b1906f;
+    border-radius: .75em;
+    -webkit-filter: drop-shadow(1px 2px 5px rgba(0,0,0,.3));
+    filter: drop-shadow(1px 2px 5px rgba(0,0,0,.3));
+    box-shadow: 
+    0 2px 2px rgba(170, 155, 128, 0.5),
+    0 0px 5px rgba(73, 53, 28, 0.15),
+    inset 0 0 15px rgba(255,255,255,.05);
+}
+.questionrow {
+    width: 100%;
+    display: block;
+    margin: 20px 20PX;
+    padding: 20px 0px;
+    height: 100px;
+}
+.questionrow:hover, .questionrow:focus, .questionrow:active {
+    background-color: #857260;
+    width: 100%;
+    display: block;
+    margin: 20px 20PX;
+    padding: 0px 0px;
+    height: 100px;
+    box-shadow: 2px 6px #734B24;
+    transition-duration: 300ms;
+}
+.questionrow:hover > .rowicon {
+    font-size: 4rem;
+    color: #D8C2AC;
+    transition-duration: 300ms;
+    animation-name: spin;
+    animation-duration: 1000ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.questionrow:focus > .rowicon {
+    font-size: 4rem;
+    color: #D8C2AC;
+    transition-duration: 300ms;
+    animation-name: spin;
+    animation-duration: 1000ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.questionrow:active > .rowicon {
+    font-size: 4rem;
+    color: #D8C2AC;
+    transition-duration: 300ms;
+    animation-name: spin;
+    animation-duration: 1000ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+.rowicon {
+    display: block;
+    position: relative;
+    float: left;
+    font-size: 4rem;
+    color: #f6f6f6;
+    padding: 5px 10px;
+    height: 100px;
+}
+.inputcontainer {
+    position: relative;
+    float: left;
+    height: 90px;
+    padding: 0px 0px;
+    margin: 0px 10px;
+}
+.labelcontainer {
+    font-size: 1.6em;
+    color: #f6f6f6;
+    height: 40px;
+    padding: 5px 0px;
+
+}
+.shortcodebox {
+    height: 40px;
+    padding: 5px 0px;
+    margin: 0px 0px;
+}
+.submitbuttonrow {
+
+}
+/*REGISTRO FINAL END*/

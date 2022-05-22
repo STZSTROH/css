@@ -1,0 +1,316 @@
+.BOXAboutLynxIntro { /*We've been in your shooes text box*/
+    border: 1px solid red;
+    margin-bottom: 20px;
+}
+.AboutLynxIntroPa { /*We've been in your shooes text styles */
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #009BDE;
+    text-align: center;
+    width: 720px; /*Set the box width to 300px on screen size of 361-630px*/
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 1px dotted pink;
+}
+.LynxLeadershipBox { /*OUTTER BOX STYLES*/
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    background-color: #009BDE;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #99cc00;
+}
+/*BOX wrapping leadership title **/
+.BOXLeadershipLynx { 
+    width: 720px;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid yellow;
+}
+/*leadership tile inside leadershipbox*/
+.LeadTitle {
+    color: #FFF;
+    font-weight: 300;
+    font-size: 46px;
+    line-height: 56px;
+    margin: 20px auto 20px auto;
+    padding-top: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    max-height: 56px;
+    border: 1px solid black;
+    display: block;
+}
+.LeadershipCardsBox { /* Container of Company lead Photos and title*/
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid white;
+    margin-top: 50px;
+}
+.LeadershipCards { /* Company lead Photos  individual box */
+    border: 1px solid darkmagenta;
+    background-color: aliceblue;
+    width: 300px; /*Individual width of each box*/
+    height: 280px;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    float: left;
+}
+.LeadershipImage { /*Styles for leaders imges*/
+    margin: 10px;
+    width: 150px;
+    border: 1px solid red;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.LeadershipName { /*Styles for Name under leader image */
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+/********end leadership properties starts Company History Boxes ********/
+/************************** MARKUP COMMENT REMOVE WHEN DONE ***********************************/
+.CompanyHistBox { /* COMPANY HISTORY text box*/
+    border: 1px solid red;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.CompHistRows { /*Sets properties for rwos with two cols*/
+    min-height: 500px;
+    min-width: 900px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+.ImgDiv { /*Stes propierties for DIVS */
+    /*background-color: cadetblue;*/
+    min-height: 500px;
+    width:  450px;
+    margin: 0;
+    float: left;
+}
+.NoImg {
+    /*background-color: dimgray;*/
+    min-height: 500px;
+    width: 450px;
+    float: left;
+}
+.NoImageDivPar p { /*Sets Prop for parragraph */
+    font-size: 25px;
+    margin: 130px auto 130px auto;
+    width: 340px;
+    text-align: center;
+    justify-items: baseline;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/************************** MARKUP COMMENT REMOVE WHEN DONE ***********************************/
+/******* MEDIAQUERY if RES is between 631px and 950px *******/
+@media only screen and (max-width: 950px) {
+    /*BOX wrapping leadership title **/
+    .BOXLeadershipLynx { 
+        width: 500px;
+        justify-content: space-between;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid yellow;
+    }
+    /*leadership tile inside leadershipbox*/
+    .AboutLynxIntroPa { /*We've been in your shooes text styles */
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+        font-size: 25px;
+        color: #009BDE;
+        text-align: center;
+        width: 500px; /*Sets we've been in your shoes to 500px */
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        border: 1px dotted pink;
+    }
+    .LeadTitle { /*Sets prop for LEADERSHIP Title */
+        font-weight: 300;
+        font-size: 46px;
+        line-height: 40px;
+        width: 440px;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 30px;
+    }
+    .LeadershipCardsBox {
+        width: 500px; /* screen adjust 631 to 950 px*/
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .LeadershipCards { /* Company lead Photos  individual box */
+        border: 1px solid darkmagenta;
+        background-color: aliceblue;
+        width: 500px; /*Individual width of each box set to 500px if screen is between 500px and 950px*/
+        height: 280px;
+        align-content: center;
+        justify-content: space-between; /*Sets LeadershipCards to align center of the screen size*/
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .LeadershipImage { /*Styles for leaders imges*/
+        margin: 10px;
+        width: 150px;
+        border: 1px solid red;
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }   
+}
+/*MEDIAQUERY if RES drops below 630px page keeps one column leadership cards take 320px*/
+@media only screen and (max-width: 630px) { /*THIS MEDIA WORKS FOR SCREENS 360-630PX */
+    /*BOX wrapping leadership title **/
+    .BOXLeadershipLynx { 
+        width: 300px;
+        justify-content: space-between;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid yellow;
+    }
+    /*leadership tile inside leadershipbox*/
+    .LeadTitle { /*Sets prop for LEADERSHIP Title */
+        font-weight: 300;
+        font-size: 40px;
+        line-height: 36px;
+        width: 300px;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 30px;
+    }
+    .AboutLynxIntroPa { /*We've been in your shooes text styles if screen is below 768px */
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+        font-size: 22px;
+        width: 300px; /*Set the box width to 300px on screen size of 361-630px*/
+        text-align: center;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .LeadershipCardsBox {
+        width: 300px; /**/
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .LeadershipCards { /* Company lead Photos  individual box */
+        border: 1px solid darkmagenta;
+        background-color: aliceblue;
+        width: 300px; /*Individual width of each box set to 300px if screen is below 500px*/
+        height: 280px;
+        align-content: center;
+        justify-content: space-between; /*Sets LeadershipCards to align center of the screen size*/
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/*MEDIAQUERY if RES drops below 360px page becomes responsive, one column*/
+@media only screen and (max-width: 360px) {
+/*BOX wrapping leadership title **/
+    .BOXLeadershipLynx { 
+        width: 300px;
+        justify-content: space-between;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid yellow;
+    }
+    /*leadership tile inside leadershipbox*/
+    .LeadTitle {
+        color: #FFF;
+        font-weight: 300;
+        font-size: 36px;
+        line-height: 36px;
+        margin: 20px auto 20px auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 260px;
+        justify-content: space-between;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-align: center;
+        max-height: 30px; 
+    }
+    .AboutLynxIntroPa { /*We've been in your shooes text styles if screen is below 360px */
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 300;
+        font-size: 22px;
+        width: 300px; /*Set the box width to 300px on screen size of 360px*/
+        color: #009BDE;
+        text-align: center;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: 1px dotted pink;
+    }
+    .LeadershipCardsBox {
+        width: 360px;
+    }
+    .LeadershipCards { /* Company lead Photos  individual box */
+        border: 1px solid darkmagenta;
+        background-color: aliceblue;
+        width: 300px; /*Individual width of each box set to 300px if screen is below 360px*/
+        height: 280px;
+        align-content: center;
+        justify-content: space-between; /*Sets LeadershipCards to align center of the screen size*/
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/*HOW TO MAKE AN IMAGE COVER THE WHOLE PAGE AND MAKE THE ELEMENT POSITIN RELATIVE TO ODCUMENT ORDER
+
+
+.hero-section {
+    position: relative;
+    padding: 4rem 0;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+
+    border-bottom: 1px solid #eceef1;
+    background-color: #f6f8fa;
+
+*/

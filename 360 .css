@@ -1,0 +1,313 @@
+/* 360px to 574px web */
+
+/******* fp-1  START *******/
+/******* fp-1  END   *******/
+
+
+/******* fp-2  START *******/
+.LogoContainer {
+    display:  block;
+    margin: 80px auto 10px auto;
+    width: 330px;
+}
+.LogoBox {
+    width: 330px;
+    margin: 50px auto 20px auto;
+    justify-content: space-between;
+}
+.LogoImg {
+    width: 330px;
+    margin: auto;
+    justify-content: space-between;
+}
+.LogoShark {
+    width: 330px;
+}
+.LogoText {
+    width: 330px;
+    justify-content: space-between;
+    margin: auto;
+    font-size: 35px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'monserrat', sans-serif;
+    font-weight: 900;
+    padding-top: 30px;
+}
+.AboutColsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.ColumnBox {
+    width: 330px;
+    margin: 20px auto 20px auto;
+    justify-content: space-between;
+}
+.ImgBox, .ReasonsImg {
+    width: 330px;
+    height: auto;
+    margin: auto;
+}
+.ReasonsImgPagh {
+    width: 300px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    line-height: 24px;
+    font-weight: 400;
+    margin: auto;
+} 
+/******* fp-2  END   *******/
+/******* fp-3  START *******/
+.MethodContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.MethodTextBox {
+    width: 330px;
+    margin: auto;
+    justify-content: space-between;
+}
+.MethodTittle {
+    width: 330px;
+    justify-content: space-between;
+    margin: auto;
+    font-size: 35px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    text-align: left;
+    font-family: 'monserrat', sans-serif;
+    font-weight: 900;
+    margin: 30px auto 4px auto;
+}
+.MethoodPagaph {
+    width: 330px;
+    text-align: left;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    line-height: 20px;
+    font-weight: 300;
+    margin: 40px auto 80px auto;
+}
+.MethoodButtonBox {
+    width: 200px;
+    margin: 10px auto 80px auto;
+    justify-content: space-between;
+    padding: 25px;
+    text-align: center;
+    background-color: #3a6cb4;
+    color: #fff;
+    text-shadow: none;
+}
+.MethoodButton {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #fff;
+    font-size: 17px;
+}
+.MethodImgBox {
+    justify-content: space-between;
+    margin: auto;
+}
+.MethodImg {
+    width: 330px;
+    height: auto;
+    margin: 10px auto 50px auto;
+}
+/******* fp-3  END   *******/
+/******* fp-4  START *******/
+.RequirementsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.PrivateKeyBox {
+    justify-content: space-between;
+    margin: auto;
+}
+.PrivateKeyImg {
+    width: 330px;
+    height: auto;
+}
+.PrivateKeyPagph {
+    width: 330px;
+    text-align: left;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    line-height: 20px;
+    font-weight: 300;
+    margin: 5px auto 80px auto;
+}
+.RequirementsContainer, .CostsContainer {
+    width: 330px;
+    justify-content: space-between;
+    text-align: left;
+    margin: 20px auto 40px auto;
+}
+.RequirementsTittle, .CostsTittle {
+    width: 330px;
+    justify-content: space-between;
+    margin: auto;
+    font-size: 35px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    text-align: left;
+    font-family: 'monserrat', sans-serif;
+    font-weight: 900;
+    margin: 30px auto 4px auto;
+}
+.RequirementsPagph, .CostsPagph {
+    width: 330px;
+    text-align: left;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    line-height: 20px;
+    font-weight: 300;
+    margin: 10px auto 50px auto;
+}
+.PaymentAcceptedContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    width: 330px;
+}
+.PaymentBox {
+    width: 140px;
+}
+.PaymentImg {
+    width: 140px;
+}
+
+/******* fp-4  END   *******/
+
+/******* fp-5  START *******/
+/******* fp-5  END   *******/
+
+/******* fp-6  START *******/
+.Fp6BgImage {
+    background-image: url('https://cryptosharkpro.com/wp-content/uploads/2021/02/Fondo-1.png'); 
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+    height: 700px;
+ }
+ /******* fp-6  END   *******/
+
+/******* site-footer START  *******/
+.divazul { /*Container of all logo and menu elements*/
+    /*border: 1px solid cyan;*/ 
+    display: flex; 
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: auto;
+    width: 330px;
+}
+.DivAmarillo {
+    padding-top: 25px;
+    width: 300px; 
+    float: left;
+}
+.DivRojo {
+    /*border: 1px dotted red;*/
+    float: left;
+    width: 340px;
+}
+#DivRojoImg {
+    width: 300px;
+}
+.DivNaranjaMenuContainer {
+    /*border: 1px solid orange;*/ 
+    width: 330px; 
+    float: left; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 35px;
+}
+.DivVerdeMenuItem {
+    /*border: 1px solid green;*/
+    height: 50px;
+    width: 91px;
+    text-align: center;
+}
+/*link properties*/
+#HomeLink, #AboutUsLink, #MethoodLink, #RequirementsLink, #CostsLink, #ContactUsLink {
+    font-family: 'monserrat', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 11px;
+}
+.LangFlagContainer {
+    justify-content: space-between;
+    width: 330px;
+    margin: auto;
+}
+.LangFlagBoxCont {
+    display: flex;
+    float: right;
+    margin: 20px 2px 10px 10px;
+    align-items: center;
+}
+#LangFlagTextLink, #LnagLink {
+    padding-right: 5px;
+    font-size: 12px;
+    font-family: 'monserrat', sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+/******* site-footer  END   *******/
+
+
+/**
+ORDER OF CLASS & ELEMENTS
+
+FRONT PAGE 2
+1)  .LogoContainer
+2)  .LogoBox
+3)  .LogoImg
+4)  .LogoShark
+5)  .LogoText
+6)  .AboutColsContainer
+7)  .ColumnBox
+8)  .ImgBox - .ReasonsImg
+9) .ReasonsImgPagh
+=================
+
+FRONT PAGE 3
+1)  MethodContainer
+2)  MethodTextBox
+3)  MethodTittle
+4)  MethoodPagaph
+5)  MethoodButtonBox
+6)  MethoodButton
+7)  MethodImgBox
+8)  MethodImg
+=================
+
+FRONT PAGE 4
+1)  RequirementsContainer
+2)  PrivateKeyBox
+3)  PrivateKeyImg
+4)  PrivateKeyPagph
+5)  RequirementsContainer - CostsContainer
+6)  RequirementsTittle - CostsTittle
+7)  RequirementsPagph - CostsPagph
+8)  PaymentAcceptedContainer
+10) PaymentBox
+11) PaymentImg
+*/

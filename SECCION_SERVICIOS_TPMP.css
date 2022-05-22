@@ -1,0 +1,101 @@
+.front-page-3 {
+    background-color: #333;
+}
+
+.ServRow {
+    height: 350px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    /*border: 1px solid orange;*/
+    /*background-color: #333;*/
+}
+.ServiciosBox {
+    background-color: #56c5cc;
+    width: 260px;
+    height: 270px;
+    float: left;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.ServiciosBox:hover {
+    background-color: #000321;    
+}
+.ServiciosIcon {
+    border-radius: 200px;
+    max-width: 120px;
+    max-height: 120px;
+    border: 3px solid #fff;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.ServiciosTitul {
+    font-size: 16px;
+    font-weight: 100;
+    margin: 15px;
+    height: 90px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Monserrat;
+}
+.ServiciosButonLink {
+    width: 40px;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    background-color: #f7aa1c;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100; 
+    transition: all;
+     transition: .6s;
+    transform-style: preserve-3d;
+}
+.ServiciosButonLink:hover {
+    transition: .6s;
+    transform-style: preserve-3d ;
+    background-color: #f14f7b;
+}
+.ServiciosButonLink:hover {
+    width: 800px;
+    height: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    border-color: #22252b;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+@media only screen and (max-width: 400px) {
+  .ServiciosBox {
+    width: 350px;
+      padding-left: 5px;
+      padding-right: 5px;
+  }
+}

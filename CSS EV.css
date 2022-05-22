@@ -1,0 +1,34 @@
+.inner {
+    padding: 0;
+    background: no-repeat;
+}
+element.style {
+}
+.section>.wrap {
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: flex;
+}
+
+.section {
+    background-color: #fff;
+    margin-bottom: 0;
+}
+
+/*remoove ugly padding top and bottom */
+.height-md {
+    /* padding-top: 0; */
+    /* padding-bottom: 0; */
+}
+/*ugly inner padding*/
+.inner {
+    padding: 0;
+}
+/*end */
+/**/
+
+
+/*******/
+.slick-dotted.slick-slider {
+    margin-bottom: 0px;
+}

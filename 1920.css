@@ -1,0 +1,228 @@
+/* fp-1 slider START */
+.slidercontainer {
+	display: block;
+}
+.slidertittlewhite {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 48px;
+    font-weight: 900;
+    color: #fff;
+}
+.slidertittleorange {
+    font-family: 'Permanent Marker', cursive;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 44px;
+    color: #bf4904;
+    border-bottom: 5px solid #fff;
+    padding: 20px 0px 0px 10px
+}
+/*button properties START */
+.button.white, .entry-content .button.white, button.white, input[type=button].white, input[type=reset].white, input[type=submit].white {
+    background-color: #fff;
+    color: #323232;
+    text-shadow: none;
+    padding: 20px;
+    margin: 25px 2px 25px 25px;
+}
+#edd-purchase-button, .button, .edd-submit, .entry-content .button, .entry-content .more-link, .menu-item.highlight>a, .woocommerce #payment #place_order, .woocommerce .button.alt.checkout-button, .woocommerce .button.alt.single_add_to_cart_button, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce-page #payment #place_order, [type=submit].edd-submit, button, input[type=button], input[type=reset], input[type=submit] {
+    display: -webkit-inline-box;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+    width: auto;
+    white-space: normal;
+    background-image: none;
+    background-color: #bf4904;
+    color: rgba(255,255,255,1);
+    font-size: 100%;
+    font-weight: 400;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    -webkit-font-smoothing: antialiased;
+	  padding: 20px;
+    margin: 25px 2px 25px 0px;
+}
+/*button properties END */
+/* fp-1 slider END  */
+
+/**** fp-2 START *****/
+.Fp2TittleContainer {
+	width: 1600px;
+	align-content: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.Fp2Tittlewhite {
+	font-family: 'monserrat', sans-serif;
+	color: #fff;
+	font-size: 8rem;
+	font-weight: 900;
+    width: 1600px;
+}
+.leadingtroughtittle {
+    width: 1600px;
+    font-family: 'Permanent Marker', cursive;
+    color: #d57521;
+    font-size: 40px;
+    font-weight: 100;
+    text-align: center;
+    margin: 78px auto 1px auto;
+}
+.reasonscontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+.reasons {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.ReasonsImg {
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ReasonsTittle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    align-content: center;
+    color: #fff;
+    text-align: center;
+    height: 66px;
+}
+.Fp5AreYouReadyBox {
+    width: 100%;
+    justify-content: space-between;
+    margin: 20px auto 50px auto;
+}
+.Fp5TittleAreYouReady {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 55px;
+    font-weight: 900;
+    align-content: center;
+    color: #d57521;
+    text-align: center;
+}
+/**** fp-2 END *****/
+
+
+
+/*************** fp-3 START ****************/
+/*1366 to 1920px max res*/ 
+/* About section START  */
+.toprowabout, .bottomrowabout {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ContenedorCaja {
+    width: 750px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 90px;
+    padding-top: 10px;
+}
+.WebIcono {
+    width: 750px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: flex-start;
+}
+.H3TituloAzul {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 75px;
+    width: 600px;
+    font-weight: 900;
+    color: #d57521;
+    margin-bottom: 48px;
+}
+.TextoiGris {
+    font-size: 20pt;
+    color: #333333;
+    font-family: 'Permanent Marker', cursive;
+    margin-bottom: 20px;
+    height: 10px;
+}
+.ParrafoGris {
+    max-width: 550px;
+    text-align: left;
+    color: #2C2C2C;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 7px 2px 7px 20px;
+    border-left: 7px solid #bf4904;
+}
+/* About section END  */
+/*************** fp-3 END ****************/
+
+
+/*************** fp-4 START ****************/
+.weservicecontainerbox {
+
+}
+.weservicefp4title {
+
+}
+.toprowweserv, .botrowweserv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1920px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.weservicebox {
+    width: 400px;
+    margin: 20px 20px 20px 20px;
+}
+.weservimg {
+    width: 400px;
+    height: auto;
+}
+.weservttittle {
+    font-family: 'Permanent Marker', cursive;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 100;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+/*************** fp-4 END ****************/

@@ -1,0 +1,29 @@
+/* Contenerdor Front-page2 */
+.fp-2-container  { 
+    display: flex;
+    flex: row;
+}
+.fp-2-container-row-sup { 
+    display: block;
+}
+.fp-2-title { 
+
+}
+.logo-shark {
+    min-width: 30vw;
+    max-width: 40vw;
+}
+.fp-2-container-bot-row-cols-cont { 
+
+}
+/*front page 2 image styles*/
+.fp-2-img { 
+    float: left;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* text below front page section 2 images */
+.fp-2-img-text  { 
+
+}

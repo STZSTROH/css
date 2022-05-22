@@ -1,0 +1,250 @@
+/*1366 to 1920px max res*/ 
+/* About Michael section START  */
+.toprowabout, .bottomrowabout {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ContenedorCaja {
+    width: 550px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 90px;
+    padding-top: 10px;
+}
+.WebIcono {
+    width: 550px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: flex-start;
+}
+.H3TituloAzul {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    width: 500px;
+    font-weight: 800;
+    color: #005C9D;
+}
+.TextoiGris {
+    font-size: 30pt;
+    color: #333333;
+    font-family: 'Permanent Marker', cursive;
+    margin-bottom: 40px;
+}
+.ParrafoGris {
+    max-width: 550px;
+    text-align: left;
+    color: #2C2C2C;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 10px;
+    border-left: 7px solid #005C9D;
+}
+/* About Michael section END  */
+/* reasons section START  */
+.FpTittleContainerBlue {
+	width: 1200px;
+	border-bottom: 5px solid #005C9D;
+	align-content: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.FpTittleBlue {
+	font-family: 'monserrat', sans-serif;
+	color: #005C9D;
+	font-size: 5rem;
+	font-weight: 900;
+    width: 1200px;
+}
+.BoredOfTittle {
+    width: 1200px;
+    font-family: 'Permanent Marker', cursive;
+    color: #4d4d4d;
+    font-size: 62px;
+    font-weight: 700;
+    text-align: center;
+    margin: 8px auto 70px auto;
+}
+.ReasonsPagph {/*Paragraph Prop*/
+	font-family: 'Montserrat', sans-serif;
+	font-size: 19px;
+	font-weight: 400;
+	color: #333;
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+.reasonscontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+.reasons {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.ReasonsImg {
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ReasonsTittle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    align-content: center;
+    color: #005C9D;
+    text-align: center;
+    height: 66px;
+}
+.Fp5AreYouReadyBox {
+    width: 100%;
+    justify-content: space-between;
+    margin: 20px auto 50px auto;
+}
+.Fp5TittleAreYouReady {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 55px;
+    font-weight: 900;
+    align-content: center;
+    color: #005C9D;
+    text-align: center;
+}
+.ImAllInBox {
+	text-align: center;
+	padding: 15px;
+	background-color: #005C9D;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.ImAllInButton {
+	text-align: center;	
+	padding: 10px;
+	color: #fff;
+	font-family: 'Monserrat', sans-serif;
+	font-weight: 900;
+	letter-spacing: 1px;
+}
+/* reasons section END */
+
+
+/*
+------equivalences in styles ----------
+---------------------------------------
+ORIGINAL---------------NEW STYLE TO COPY PROPERTIES
+
+
+packagebox
+packtitletext  = ReasonsTittle (Make font color white instead of blue)
+packpagh       = ReasonsPagph  (Make font color white instead of blue)
+*packimgbox     = ReasonImg      (No changes needed)
+*packagebox     = reasons
+
+*/
+
+/* fp-6 (packages) START */
+.packagescontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.packagebox {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.packimgbox {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.packtitlebox {
+    margin-left: auto;
+    margin-right: auto;
+}
+.packtitletext { /* properties from ReasonsTitle with white text */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 29px;
+    font-weight: 700;
+    align-content: center;
+    color: #fff;
+    text-align: center;
+    height: 66px;
+}
+.packpagh { /**/
+	font-family: 'Montserrat', sans-serif;
+	font-size: 19px;
+    line-height: 26px;
+	font-weight: 500;
+	color: #fff;
+	text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    border-left: 5px solid #fff;
+    padding-left: 20px;
+    height: 630px;
+}
+/** BUTTON PROPERTIES don't change with screen size change **/
+.packbttnbox { /*button container box properties*/
+    width: 100%;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    position: relative;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+.packctabutton a, .packctabutton a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+.packctabutton { /*add plan button properties */
+    background-color: #0980D3;
+    color: black;
+    border: 1px solid #e7e7e7;
+    border-radius: 7px;
+    padding: 16px 32px;
+    text-align: center;
+    display: flexbox;
+    margin: 4px auto 4px auto;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    font-family: 'Permanent Marker', cursive;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+    width: 250px;
+}
+.packctabutton:hover {
+    background-color: #e7e7e7;
+    color: #0980D3;
+    border: 1px solid #0980D3;
+}
+/* fp-6 (packages) END */    
